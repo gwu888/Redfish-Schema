@@ -1,0 +1,880 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom3/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom3/", 
+        "Description": "Metric report of CPU interconnect utilization for 1440 minutes with sensing interval of 300 seconds.", 
+        "Id": "CPUICUtilCustom3", 
+        "MetricProperties": [
+          "SystemUsage/CPUICUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUICUtilCustom3/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT300S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPUICUtil"
+          }
+        ], 
+        "Name": "Metric report of CPU interconnect utilization for 1440 minutes with sensing interval of 300 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom1/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom1/", 
+        "Description": "Metric report of I/O Bus utilization for 10 minutes with sensing interval of 20 seconds.", 
+        "Id": "IOBusUtilCustom1", 
+        "MetricProperties": [
+          "SystemUsage/IOBusUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/IOBusUtilCustom1/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "IOBusUtil"
+          }
+        ], 
+        "Name": "Metric report of I/O Bus utilization for 10 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom1/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom1/", 
+        "Description": "Metric report of CPU interconnect utilization for 10 minutes with sensing interval of 20 seconds.", 
+        "Id": "CPUICUtilCustom1", 
+        "MetricProperties": [
+          "SystemUsage/CPUICUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUICUtilCustom1/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPUICUtil"
+          }
+        ], 
+        "Name": "Metric report of CPU interconnect utilization for 10 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom1/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom1/", 
+        "Description": "Metric report of CPU Utilization for 10 minutes with sensing interval of 20 seconds.", 
+        "Id": "CPUUtilCustom1", 
+        "MetricProperties": [
+          "SystemUsage/CPUUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUUtilCustom1/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPUUtil"
+          }
+        ], 
+        "Name": "Metric report of CPU Utilization for 10 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom3/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom3/", 
+        "Description": "Metric report of CPU Utilization for 1440 minutes with sensing interval of 300 seconds.", 
+        "Id": "CPUUtilCustom3", 
+        "MetricProperties": [
+          "SystemUsage/CPUUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUUtilCustom3/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT300S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPUUtil"
+          }
+        ], 
+        "Name": "Metric report of CPU Utilization for 1440 minutes with sensing interval of 300 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom3/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom3/", 
+        "Description": "Metric report of I/O Bus utilization for 1440 minutes with sensing interval of 300 seconds.", 
+        "Id": "IOBusUtilCustom3", 
+        "MetricProperties": [
+          "SystemUsage/IOBusUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/IOBusUtilCustom3/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT300S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "IOBusUtil"
+          }
+        ], 
+        "Name": "Metric report of I/O Bus utilization for 1440 minutes with sensing interval of 300 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom3/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom3/", 
+        "Description": "Metric report of average CPU0 frequency for 1440 minutes with sensing interval of 300 seconds.", 
+        "Id": "AvgCPU0FreqCustom3", 
+        "MetricProperties": [
+          "SystemUsage/AvgCPU0Freq"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/AvgCPU0FreqCustom3/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT300S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "AvgCPU0Freq"
+          }
+        ], 
+        "Name": "Metric report of average CPU0 frequency for 1440 minutes with sensing interval of 300 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom3/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom3/", 
+        "Description": "Metric report of Memory Bus Utilization for 1440 minutes with sensing interval of 300 seconds.", 
+        "Id": "MemoryBusUtilCustom3", 
+        "MetricProperties": [
+          "SystemUsage/MemoryBusUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/MemoryBusUtilCustom3/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT300S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "MemoryBusUtil"
+          }
+        ], 
+        "Name": "Metric report of Memory Bus Utilization for 1440 minutes with sensing interval of 300 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom1/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom1/", 
+        "Description": "Metric report of Memory Bus Utilization for 10 minutes with sensing interval of 20 seconds.", 
+        "Id": "MemoryBusUtilCustom1", 
+        "MetricProperties": [
+          "SystemUsage/MemoryBusUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/MemoryBusUtilCustom1/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "MemoryBusUtil"
+          }
+        ], 
+        "Name": "Metric report of Memory Bus Utilization for 10 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom1/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom1/", 
+        "Description": "Metric report of average CPU0 power for 10 minutes with sensing interval of 20 seconds.", 
+        "Id": "CPU0PowerCustom1", 
+        "MetricProperties": [
+          "SystemUsage/CPU0Power"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPU0PowerCustom1/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPU0Power"
+          }
+        ], 
+        "Name": "Metric report of average CPU0 power for 10 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom3/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom3/", 
+        "Description": "Metric report of Jitter Count for 1440 minutes with sensing interval of 300 seconds.", 
+        "Id": "JitterCountCustom3", 
+        "MetricProperties": [
+          "SystemUsage/JitterCount"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/JitterCountCustom3/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT300S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "JitterCount"
+          }
+        ], 
+        "Name": "Metric report of Jitter Count for 1440 minutes with sensing interval of 300 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom4/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom4/", 
+        "Description": "Metric report of average CPU0 frequency for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Id": "AvgCPU0FreqCustom4", 
+        "MetricProperties": [
+          "SystemUsage/AvgCPU0Freq"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/AvgCPU0FreqCustom4/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT1800S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "AvgCPU0Freq"
+          }
+        ], 
+        "Name": "Metric report of average CPU0 frequency for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom3/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom3/", 
+        "Description": "Metric report of average CPU0 power for 1440 minutes with sensing interval of 300 seconds.", 
+        "Id": "CPU0PowerCustom3", 
+        "MetricProperties": [
+          "SystemUsage/CPU0Power"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPU0PowerCustom3/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT300S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPU0Power"
+          }
+        ], 
+        "Name": "Metric report of average CPU0 power for 1440 minutes with sensing interval of 300 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom1/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom1/", 
+        "Description": "Metric report of Jitter Count for 10 minutes with sensing interval of 20 seconds.", 
+        "Id": "JitterCountCustom1", 
+        "MetricProperties": [
+          "SystemUsage/JitterCount"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/JitterCountCustom1/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "JitterCount"
+          }
+        ], 
+        "Name": "Metric report of Jitter Count for 10 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom4/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom4/", 
+        "Description": "Metric report of CPU interconnect utilization for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Id": "CPUICUtilCustom4", 
+        "MetricProperties": [
+          "SystemUsage/CPUICUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUICUtilCustom4/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT1800S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPUICUtil"
+          }
+        ], 
+        "Name": "Metric report of CPU interconnect utilization for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom2/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom2/", 
+        "Description": "Metric report of I/O Bus utilization for 60 minutes with sensing interval of 20 seconds.", 
+        "Id": "IOBusUtilCustom2", 
+        "MetricProperties": [
+          "SystemUsage/IOBusUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/IOBusUtilCustom2/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "IOBusUtil"
+          }
+        ], 
+        "Name": "Metric report of I/O Bus utilization for 60 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom2/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom2/", 
+        "Description": "Metric report of CPU interconnect utilization for 60 minutes with sensing interval of 20 seconds.", 
+        "Id": "CPUICUtilCustom2", 
+        "MetricProperties": [
+          "SystemUsage/CPUICUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUICUtilCustom2/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPUICUtil"
+          }
+        ], 
+        "Name": "Metric report of CPU interconnect utilization for 60 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom4/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom4/", 
+        "Description": "Metric report of CPU Utilization for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Id": "CPUUtilCustom4", 
+        "MetricProperties": [
+          "SystemUsage/CPUUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUUtilCustom4/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT1800S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPUUtil"
+          }
+        ], 
+        "Name": "Metric report of CPU Utilization for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom4/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom4/", 
+        "Description": "Metric report of I/O Bus utilization for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Id": "IOBusUtilCustom4", 
+        "MetricProperties": [
+          "SystemUsage/IOBusUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/IOBusUtilCustom4/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT1800S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "IOBusUtil"
+          }
+        ], 
+        "Name": "Metric report of I/O Bus utilization for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom2/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom2/", 
+        "Description": "Metric report of average CPU0 frequency for 60 minutes with sensing interval of 20 seconds.", 
+        "Id": "AvgCPU0FreqCustom2", 
+        "MetricProperties": [
+          "SystemUsage/AvgCPU0Freq"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/AvgCPU0FreqCustom2/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "AvgCPU0Freq"
+          }
+        ], 
+        "Name": "Metric report of average CPU0 frequency for 60 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom2/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom2/", 
+        "Description": "Metric report of average CPU0 power for 60 minutes with sensing interval of 20 seconds.", 
+        "Id": "CPU0PowerCustom2", 
+        "MetricProperties": [
+          "SystemUsage/CPU0Power"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPU0PowerCustom2/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPU0Power"
+          }
+        ], 
+        "Name": "Metric report of average CPU0 power for 60 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom4/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom4/", 
+        "Description": "Metric report of average CPU0 power for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Id": "CPU0PowerCustom4", 
+        "MetricProperties": [
+          "SystemUsage/CPU0Power"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPU0PowerCustom4/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT1800S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPU0Power"
+          }
+        ], 
+        "Name": "Metric report of average CPU0 power for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom1/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom1/", 
+        "Description": "Metric report of average CPU0 frequency for 10 minutes with sensing interval of 20 seconds.", 
+        "Id": "AvgCPU0FreqCustom1", 
+        "MetricProperties": [
+          "SystemUsage/AvgCPU0Freq"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/AvgCPU0FreqCustom1/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "AvgCPU0Freq"
+          }
+        ], 
+        "Name": "Metric report of average CPU0 frequency for 10 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom2/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom2/", 
+        "Description": "Metric report of Jitter Count for 60 minutes with sensing interval of 20 seconds.", 
+        "Id": "JitterCountCustom2", 
+        "MetricProperties": [
+          "SystemUsage/JitterCount"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/JitterCountCustom2/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "JitterCount"
+          }
+        ], 
+        "Name": "Metric report of Jitter Count for 60 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom4/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom4/", 
+        "Description": "Metric report of Memory Bus Utilization for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Id": "MemoryBusUtilCustom4", 
+        "MetricProperties": [
+          "SystemUsage/MemoryBusUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/MemoryBusUtilCustom4/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT1800S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "MemoryBusUtil"
+          }
+        ], 
+        "Name": "Metric report of Memory Bus Utilization for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom2/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom2/", 
+        "Description": "Metric report of Memory Bus Utilization for 60 minutes with sensing interval of 20 seconds.", 
+        "Id": "MemoryBusUtilCustom2", 
+        "MetricProperties": [
+          "SystemUsage/MemoryBusUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/MemoryBusUtilCustom2/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "MemoryBusUtil"
+          }
+        ], 
+        "Name": "Metric report of Memory Bus Utilization for 60 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom4/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom4/", 
+        "Description": "Metric report of Jitter Count for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Id": "JitterCountCustom4", 
+        "MetricProperties": [
+          "SystemUsage/JitterCount"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/JitterCountCustom4/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT1800S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "JitterCount"
+          }
+        ], 
+        "Name": "Metric report of Jitter Count for 10080 minutes with sensing interval of 1800 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#MetricReportDefinition.v1_0_0.MetricReportDefinition": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom2/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition", 
+        "@odata.etag": "W/\"9A613B5C\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom2/", 
+        "Description": "Metric report of CPU Utilization for 60 minutes with sensing interval of 20 seconds.", 
+        "Id": "CPUUtilCustom2", 
+        "MetricProperties": [
+          "SystemUsage/CPUUtil"
+        ], 
+        "MetricReport": {
+          "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUUtilCustom2/"
+        }, 
+        "MetricReportDefinitionType": "OnRequest", 
+        "Metrics": [
+          {
+            "CollectionDuration": "PT20S", 
+            "CollectionFunction": "Average", 
+            "CollectionTimeScope": "Interval", 
+            "MetricId": "CPUUtil"
+          }
+        ], 
+        "Name": "Metric report of CPU Utilization for 60 minutes with sensing interval of 20 seconds.", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }
+]

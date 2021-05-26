@@ -1,0 +1,26 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeKmsConfig.v1_0_0.HpeKmsConfig": {
+      "/redfish/v1/systems/1/bios/kmsconfig/settings/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeKmsConfig.HpeKmsConfig", 
+        "@odata.etag": "W/\"D0C6F45B5BECC3C3C373C0BB77EC32BC\"", 
+        "@odata.id": "/redfish/v1/systems/1/bios/kmsconfig/settings/", 
+        "EncryptableDevices": [], 
+        "Id": "settings", 
+        "KeyManagementType": "Disabled", 
+        "Name": "KMS Pending Settings", 
+        "OpalBlockSid": "Disabled"
+      }
+    }
+  }
+]

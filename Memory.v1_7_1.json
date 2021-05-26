@@ -1,0 +1,1368 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm7/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm7/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 7", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm7", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 1, 
+          "MemoryController": 3, 
+          "Slot": 7, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm7", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm10/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm10/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 32768, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 10", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm10", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 2, 
+          "MemoryController": 1, 
+          "Slot": 10, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm10", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "Samsung"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840758-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 2, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "383AC8B7", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "52736", 
+        "VolatileRegionSizeLimitMiB": 32768, 
+        "VolatileSizeMiB": 32768
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm5/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm5/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 5", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm5", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 4, 
+          "MemoryController": 4, 
+          "Slot": 5, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm5", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm12/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm12/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 32768, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 12", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm12", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 3, 
+          "MemoryController": 1, 
+          "Slot": 12, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm12", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "Samsung"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840758-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 2, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "383AC93A", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "52736", 
+        "VolatileRegionSizeLimitMiB": 32768, 
+        "VolatileSizeMiB": 32768
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm3/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm3/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 3", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm3", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 5, 
+          "MemoryController": 4, 
+          "Slot": 3, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm3", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm3/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm3/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 32768, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 3", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm3", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 5, 
+          "MemoryController": 2, 
+          "Slot": 3, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm3", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "Samsung"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840758-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 2, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "383AD694", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "52736", 
+        "VolatileRegionSizeLimitMiB": 32768, 
+        "VolatileSizeMiB": 32768
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm1/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm1/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 1", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm1", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 6, 
+          "MemoryController": 4, 
+          "Slot": 1, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm1", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm7/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm7/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 16384, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 7", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm7", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 1, 
+          "MemoryController": 1, 
+          "Slot": 7, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm7", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "SK Hynix"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840757-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 1, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "32CDF7EC", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "44288", 
+        "VolatileRegionSizeLimitMiB": 16384, 
+        "VolatileSizeMiB": 16384
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm1/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm1/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 32768, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 1", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm1", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 6, 
+          "MemoryController": 2, 
+          "Slot": 1, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm1", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "Samsung"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840758-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 2, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "383ADB65", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "52736", 
+        "VolatileRegionSizeLimitMiB": 32768, 
+        "VolatileSizeMiB": 32768
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm10/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm10/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 10", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm10", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 2, 
+          "MemoryController": 3, 
+          "Slot": 10, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm10", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm5/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm5/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 32768, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 5", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm5", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 4, 
+          "MemoryController": 2, 
+          "Slot": 5, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm5", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "Samsung"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840758-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 2, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "383AC939", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "52736", 
+        "VolatileRegionSizeLimitMiB": 32768, 
+        "VolatileSizeMiB": 32768
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm12/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm12/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 12", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm12", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 3, 
+          "MemoryController": 3, 
+          "Slot": 12, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm12", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm9/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm9/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 9", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm9", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 2, 
+          "MemoryController": 3, 
+          "Slot": 9, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm9", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm9/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm9/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 16384, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 9", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm9", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 2, 
+          "MemoryController": 1, 
+          "Slot": 9, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm9", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "SK Hynix"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840757-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 1, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "32CDF136", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "44288", 
+        "VolatileRegionSizeLimitMiB": 16384, 
+        "VolatileSizeMiB": 16384
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm11/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm11/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 16384, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 11", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm11", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 3, 
+          "MemoryController": 1, 
+          "Slot": 11, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm11", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "SK Hynix"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840757-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 1, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "32CDF196", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "44288", 
+        "VolatileRegionSizeLimitMiB": 16384, 
+        "VolatileSizeMiB": 16384
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm6/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm6/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 6", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm6", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 4, 
+          "MemoryController": 4, 
+          "Slot": 6, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm6", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm2/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm2/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 2", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm2", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 6, 
+          "MemoryController": 4, 
+          "Slot": 2, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm2", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm4/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm4/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 4", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm4", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 5, 
+          "MemoryController": 4, 
+          "Slot": 4, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm4", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm2/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm2/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 16384, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 2", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm2", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 6, 
+          "MemoryController": 2, 
+          "Slot": 2, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm2", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "SK Hynix"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840757-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 1, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "32CDEF83", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "44288", 
+        "VolatileRegionSizeLimitMiB": 16384, 
+        "VolatileSizeMiB": 16384
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm6/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm6/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 16384, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 6", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm6", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 4, 
+          "MemoryController": 2, 
+          "Slot": 6, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm6", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "SK Hynix"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840757-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 1, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "32CDF199", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "44288", 
+        "VolatileRegionSizeLimitMiB": 16384, 
+        "VolatileSizeMiB": 16384
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm4/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm4/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 16384, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 4", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm4", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 5, 
+          "MemoryController": 2, 
+          "Slot": 4, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm4", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "SK Hynix"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840757-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 1, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "32CDEF89", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "44288", 
+        "VolatileRegionSizeLimitMiB": 16384, 
+        "VolatileSizeMiB": 16384
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc1dimm8/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"E6EC3A2C\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm8/", 
+        "BaseModuleType": "RDIMM", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 32768, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 1 DIMM 8", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc1dimm8", 
+        "LogicalSizeMiB": 0, 
+        "Manufacturer": "HPE", 
+        "MemoryDeviceType": "DDR4", 
+        "MemoryLocation": {
+          "Channel": 1, 
+          "MemoryController": 1, 
+          "Slot": 8, 
+          "Socket": 1
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc1dimm8", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "Attributes": [
+              "HpeSmartMemory"
+            ], 
+            "BaseModuleType": "RDIMM", 
+            "DIMMStatus": "GoodInUse", 
+            "MaxOperatingSpeedMTs": 2666, 
+            "MinimumVoltageVoltsX10": 12, 
+            "VendorName": "Samsung"
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "OperatingSpeedMhz": 2400, 
+        "PartNumber": "840758-091", 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": 2, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "383AC916", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "VendorID": "52736", 
+        "VolatileRegionSizeLimitMiB": 32768, 
+        "VolatileSizeMiB": 32768
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm8/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm8/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 8", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm8", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 1, 
+          "MemoryController": 3, 
+          "Slot": 8, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm8", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }, 
+  {
+    "#Memory.v1_7_1.Memory": {
+      "/redfish/v1/Systems/1/Memory/proc2dimm11/": {
+        "@odata.context": "/redfish/v1/$metadata#Memory.Memory", 
+        "@odata.etag": "W/\"6165906D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm11/", 
+        "BusWidthBits": 72, 
+        "CacheSizeMiB": 0, 
+        "CapacityMiB": 0, 
+        "DataWidthBits": 64, 
+        "DeviceLocator": "PROC 2 DIMM 11", 
+        "ErrorCorrection": "MultiBitECC", 
+        "Id": "proc2dimm11", 
+        "LogicalSizeMiB": 0, 
+        "MemoryLocation": {
+          "Channel": 3, 
+          "MemoryController": 3, 
+          "Slot": 11, 
+          "Socket": 2
+        }, 
+        "MemoryMedia": [
+          "DRAM"
+        ], 
+        "MemoryType": "DRAM", 
+        "Name": "proc2dimm11", 
+        "NonVolatileSizeMiB": 0, 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt", 
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt", 
+            "DIMMStatus": "NotPresent", 
+            "MinimumVoltageVoltsX10": 0
+          }
+        }, 
+        "OperatingMemoryModes": [
+          "Volatile"
+        ], 
+        "PersistentRegionSizeLimitMiB": 0, 
+        "RankCount": null, 
+        "SecurityCapabilities": {}, 
+        "SerialNumber": "NOT AVAILABLE   ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "VendorID": "0", 
+        "VolatileRegionSizeLimitMiB": 0, 
+        "VolatileSizeMiB": 0
+      }
+    }
+  }
+]

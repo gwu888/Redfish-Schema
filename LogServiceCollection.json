@@ -1,0 +1,49 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#LogServiceCollection.LogServiceCollection": {
+      "/redfish/v1/Managers/1/LogServices/": {
+        "@odata.context": "/redfish/v1/$metadata#LogServiceCollection.LogServiceCollection", 
+        "@odata.etag": "W/\"AA6D42B0\"", 
+        "@odata.id": "/redfish/v1/Managers/1/LogServices/", 
+        "Description": "Logs view", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/"
+          }
+        ], 
+        "Members@odata.count": 1, 
+        "Name": "Logs"
+      }
+    }
+  }, 
+  {
+    "#LogServiceCollection.LogServiceCollection": {
+      "/redfish/v1/Systems/1/LogServices/": {
+        "@odata.context": "/redfish/v1/$metadata#LogServiceCollection.LogServiceCollection", 
+        "@odata.etag": "W/\"570254F2\"", 
+        "@odata.id": "/redfish/v1/Systems/1/LogServices/", 
+        "Description": "Logs view", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/"
+          }
+        ], 
+        "Members@odata.count": 2, 
+        "Name": "Logs"
+      }
+    }
+  }
+]

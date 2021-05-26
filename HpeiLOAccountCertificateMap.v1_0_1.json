@@ -1,0 +1,51 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeiLOAccountCertificateMap.v1_0_1.HpeiLOAccountCertificateMap": {
+      "/redfish/v1/AccountService/UserCertificateMapping/3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOAccountCertificateMap.HpeiLOAccountCertificateMap", 
+        "@odata.etag": "W/\"3A0F7355\"", 
+        "@odata.id": "/redfish/v1/AccountService/UserCertificateMapping/3/", 
+        "Fingerprint": "00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00", 
+        "FingerprintDigestAlgorithm": "SHA256", 
+        "Id": "3", 
+        "UserName": "_HPOneViewMonitor"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOAccountCertificateMap.v1_0_1.HpeiLOAccountCertificateMap": {
+      "/redfish/v1/AccountService/UserCertificateMapping/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOAccountCertificateMap.HpeiLOAccountCertificateMap", 
+        "@odata.etag": "W/\"A643C195\"", 
+        "@odata.id": "/redfish/v1/AccountService/UserCertificateMapping/1/", 
+        "Fingerprint": "00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00", 
+        "FingerprintDigestAlgorithm": "SHA256", 
+        "Id": "1", 
+        "UserName": "Administrator"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOAccountCertificateMap.v1_0_1.HpeiLOAccountCertificateMap": {
+      "/redfish/v1/AccountService/UserCertificateMapping/4/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOAccountCertificateMap.HpeiLOAccountCertificateMap", 
+        "@odata.etag": "W/\"69EC50A6\"", 
+        "@odata.id": "/redfish/v1/AccountService/UserCertificateMapping/4/", 
+        "Fingerprint": "00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00", 
+        "FingerprintDigestAlgorithm": "SHA256", 
+        "Id": "4", 
+        "UserName": "gordon"
+      }
+    }
+  }
+]

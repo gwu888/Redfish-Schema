@@ -1,0 +1,176 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/6/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/6/", 
+        "Description": "The Password Complexity setting is disabled. This configuration increases system vulnerability to attack.", 
+        "Id": "6", 
+        "Ignore": false, 
+        "Name": "Password Complexity", 
+        "RecommendedAction": "Enable the \"Password Complexity\" setting.", 
+        "SecurityStatus": "Risk", 
+        "State": "Disabled"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/7/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/7/", 
+        "Id": "7", 
+        "Ignore": false, 
+        "Name": "Last Firmware Scan Result", 
+        "SecurityStatus": "Ok", 
+        "State": "Ok"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/8/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/8/", 
+        "Id": "8", 
+        "Ignore": false, 
+        "Name": "Require Host Authentication", 
+        "SecurityStatus": "Ok", 
+        "State": "Disabled"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/1/", 
+        "Id": "1", 
+        "Ignore": false, 
+        "Name": "IPMI/DCMI Over LAN", 
+        "SecurityStatus": "Ok", 
+        "State": "Disabled"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/5/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/5/", 
+        "Description": "The UEFI Secure Boot setting is disabled. In this configuration, the UEFI system firmware does not validate the boot loader, Option ROM firmware, and other system software executables for trusted signatures. This configuration breaks the chain of trust established by iLO from power-on", 
+        "Id": "5", 
+        "Ignore": false, 
+        "Name": "Secure Boot", 
+        "RecommendedAction": "Enable the Secure Boot setting in the UEFI System Utilities.", 
+        "SecurityStatus": "Risk", 
+        "State": "Disabled"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/9/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/9/", 
+        "Description": "Management processor's default self-signed certificate is in use.", 
+        "Id": "9", 
+        "Ignore": false, 
+        "Name": "Default SSL Certificate In Use", 
+        "RecommendedAction": "Import a certificate signed by a trusted certificate authority.", 
+        "SecurityStatus": "Risk", 
+        "State": "True"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/4/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/4/", 
+        "Id": "4", 
+        "Ignore": false, 
+        "Name": "Authentication Failure Logging", 
+        "SecurityStatus": "Ok", 
+        "State": "Enabled"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/10/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/10/", 
+        "Description": "SNMPv1 is enabled. This configuration increases system vulnerability to attack.", 
+        "Id": "10", 
+        "Ignore": false, 
+        "Name": "SNMPv1", 
+        "RecommendedAction": "Disable the SNMPv1 protocol.", 
+        "SecurityStatus": "Risk", 
+        "State": "Enabled"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/0/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/0/", 
+        "Id": "0", 
+        "Ignore": false, 
+        "Name": "Security Override Switch", 
+        "SecurityStatus": "Ok", 
+        "State": "Off"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/2/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/2/", 
+        "Id": "2", 
+        "Ignore": false, 
+        "Name": "Minimum Password Length", 
+        "SecurityStatus": "Ok", 
+        "State": "Ok"
+      }
+    }
+  }, 
+  {
+    "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam": {
+      "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam", 
+        "@odata.etag": "W/\"A3A6BF43\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/3/", 
+        "Description": "The Require Login for iLO RBSU setting is disabled. This configuration allows unauthenticated iLO access through the UEFI System Utilities.", 
+        "Id": "3", 
+        "Ignore": false, 
+        "Name": "Require Login for iLO RBSU", 
+        "RecommendedAction": "Enable the Require Login for iLO RBSU setting.", 
+        "SecurityStatus": "Risk", 
+        "State": "Disabled"
+      }
+    }
+  }
+]

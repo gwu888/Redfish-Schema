@@ -1,0 +1,53 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeiLOFederationPeers.v2_0_0.HpeiLOFederationPeers": {
+      "/redfish/v1/Managers/1/FederationPeers/DEFAULT/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOFederationPeers.HpeiLOFederationPeers", 
+        "@odata.etag": "W/\"1A118ADF\"", 
+        "@odata.id": "/redfish/v1/Managers/1/FederationPeers/DEFAULT/", 
+        "Id": "DEFAULT", 
+        "Name": "DEFAULT", 
+        "Peers": [
+          {
+            "HttpErrorCode": 0, 
+            "ManagerIPAddress": "16.105.172.21", 
+            "Time": "2021-03-04T16:51:27Z", 
+            "URL": "http://16.105.172.21:80/", 
+            "UUID": "9f77c6d0-aa38-5953-a004-056f6bd639c4"
+          }, 
+          {
+            "HttpErrorCode": 0, 
+            "ManagerIPAddress": "16.105.172.79", 
+            "Time": "2021-03-04T16:45:48Z", 
+            "URL": "http://16.105.172.79:80/", 
+            "UUID": "b7082ee6-5e85-5ca6-bd7e-73b70905b109"
+          }, 
+          {
+            "HttpErrorCode": 0, 
+            "ManagerIPAddress": "16.105.172.241", 
+            "Time": "2021-03-04T16:45:59Z", 
+            "URL": "http://16.105.172.241:80/", 
+            "UUID": "e40727d9-e5f3-57e7-bb29-d8dac77f4905"
+          }, 
+          {
+            "HttpErrorCode": 0, 
+            "ManagerIPAddress": "16.105.172.247", 
+            "Time": "2021-03-04T16:54:21Z", 
+            "URL": "http://16.105.172.247:80/", 
+            "UUID": "79451a34-3e20-5ddf-bb39-644616b26615"
+          }
+        ]
+      }
+    }
+  }
+]

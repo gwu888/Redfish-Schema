@@ -1,0 +1,35 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HostInterface.v1_1_1.HostInterface": {
+      "/redfish/v1/Managers/1/HostInterfaces/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HostInterface.HostInterface", 
+        "@odata.etag": "W/\"B34B5ADE\"", 
+        "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1/", 
+        "ExternallyAccessible": false, 
+        "HostInterfaceType": "NetworkHostInterface", 
+        "Id": "1", 
+        "InterfaceEnabled": false, 
+        "ManagerEthernetInterface": {
+          "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/3/"
+        }, 
+        "Name": "USB Virtual Ethernet Interface", 
+        "NetworkProtocol": {
+          "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol/"
+        }, 
+        "Status": {
+          "State": "Disabled"
+        }
+      }
+    }
+  }
+]

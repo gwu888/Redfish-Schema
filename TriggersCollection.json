@@ -1,0 +1,44 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#TriggersCollection.TriggersCollection": {
+      "/redfish/v1/TelemetryService/Triggers/": {
+        "@odata.context": "/redfish/v1/$metadata#TriggersCollection.TriggersCollection", 
+        "@odata.etag": "W/\"D5EC731D\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/Triggers/", 
+        "Description": " Triggers view", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPUUtilTriggers/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/MemoryBusUtilTriggers/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/IOBusUtilTriggers/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPUICUtilTriggers/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/JitterCountTriggers/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPU0PowerTriggers/"
+          }
+        ], 
+        "Members@odata.count": 6, 
+        "Name": "Triggers"
+      }
+    }
+  }
+]

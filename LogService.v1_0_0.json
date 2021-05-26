@@ -1,0 +1,72 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#LogService.v1_0_0.LogService": {
+      "/redfish/v1/Systems/1/LogServices/IML/": {
+        "@odata.context": "/redfish/v1/$metadata#LogService.LogService", 
+        "@odata.etag": "W/\"4FFE04A1\"", 
+        "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/", 
+        "Actions": {
+          "#LogService.ClearLog": {
+            "target": "/redfish/v1/Systems/1/LogServices/IML/Actions/LogService.ClearLog/"
+          }
+        }, 
+        "Entries": {
+          "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/"
+        }, 
+        "Id": "IML", 
+        "Name": "Integrated Management Log", 
+        "OverWritePolicy": "WrapsWhenFull"
+      }
+    }
+  }, 
+  {
+    "#LogService.v1_0_0.LogService": {
+      "/redfish/v1/Managers/1/LogServices/IEL/": {
+        "@odata.context": "/redfish/v1/$metadata#LogService.LogService", 
+        "@odata.etag": "W/\"4FFE04A1\"", 
+        "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/", 
+        "Actions": {
+          "#LogService.ClearLog": {
+            "target": "/redfish/v1/Managers/1/LogServices/IEL/Actions/LogService.ClearLog/"
+          }
+        }, 
+        "Entries": {
+          "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/"
+        }, 
+        "Id": "IEL", 
+        "Name": "iLO Event Log", 
+        "OverWritePolicy": "WrapsWhenFull"
+      }
+    }
+  }, 
+  {
+    "#LogService.v1_0_0.LogService": {
+      "/redfish/v1/Systems/1/LogServices/SL/": {
+        "@odata.context": "/redfish/v1/$metadata#LogService.LogService", 
+        "@odata.etag": "W/\"4FFE04A1\"", 
+        "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/", 
+        "Actions": {
+          "#LogService.ClearLog": {
+            "target": "/redfish/v1/Systems/1/LogServices/SL/Actions/LogService.ClearLog/"
+          }
+        }, 
+        "Entries": {
+          "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/"
+        }, 
+        "Id": "SL", 
+        "Name": "Security Log", 
+        "OverWritePolicy": "WrapsWhenFull"
+      }
+    }
+  }
+]

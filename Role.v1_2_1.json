@@ -1,0 +1,148 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#Role.v1_2_1.Role": {
+      "/redfish/v1/AccountService/Roles/Administrator/": {
+        "@odata.context": "/redfish/v1/$metadata#Role.Role", 
+        "@odata.etag": "W/\"B60B0A30\"", 
+        "@odata.id": "/redfish/v1/AccountService/Roles/Administrator/", 
+        "AssignedPrivileges": [
+          "Login", 
+          "ConfigureManager", 
+          "ConfigureUsers", 
+          "ConfigureSelf", 
+          "ConfigureComponents"
+        ], 
+        "Description": "iLO User Role", 
+        "Id": "Administrator", 
+        "IsPredefined": true, 
+        "Name": "User Role", 
+        "OemPrivileges": [
+          "RemoteConsolePriv", 
+          "VirtualMediaPriv", 
+          "VirtualPowerAndResetPriv", 
+          "HostBIOSConfigPriv", 
+          "HostNICConfigPriv", 
+          "HostStorageConfigPriv"
+        ], 
+        "RoleId": "Administrator"
+      }
+    }
+  }, 
+  {
+    "#Role.v1_2_1.Role": {
+      "/redfish/v1/AccountService/Roles/ReadOnly/": {
+        "@odata.context": "/redfish/v1/$metadata#Role.Role", 
+        "@odata.etag": "W/\"23C5CB60\"", 
+        "@odata.id": "/redfish/v1/AccountService/Roles/ReadOnly/", 
+        "AssignedPrivileges": [
+          "Login", 
+          "ConfigureSelf"
+        ], 
+        "Description": "iLO User Role", 
+        "Id": "ReadOnly", 
+        "IsPredefined": true, 
+        "Name": "User Role", 
+        "RoleId": "ReadOnly"
+      }
+    }
+  }, 
+  {
+    "#Role.v1_2_1.Role": {
+      "/redfish/v1/AccountService/Roles/dirgroup9d4546a03a03bb977c03086a/": {
+        "@odata.context": "/redfish/v1/$metadata#Role.Role", 
+        "@odata.etag": "W/\"FD9B3B57\"", 
+        "@odata.id": "/redfish/v1/AccountService/Roles/dirgroup9d4546a03a03bb977c03086a/", 
+        "AssignedPrivileges": [
+          "Login", 
+          "ConfigureSelf"
+        ], 
+        "Description": "iLO Directory Group Role", 
+        "Id": "dirgroup9d4546a03a03bb977c03086a", 
+        "IsPredefined": false, 
+        "Name": "Group Role", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeDirectoryGroup.HpeDirectoryGroup", 
+            "@odata.type": "#HpeDirectoryGroup.v1_0_0.HpeDirectoryGroup", 
+            "GroupDn": "Authenticated Users", 
+            "GroupSid": "S-1-5-11"
+          }
+        }, 
+        "RoleId": "dirgroup9d4546a03a03bb977c03086a"
+      }
+    }
+  }, 
+  {
+    "#Role.v1_2_1.Role": {
+      "/redfish/v1/AccountService/Roles/dirgroupb3d8954f6ebbe735764e9f7c/": {
+        "@odata.context": "/redfish/v1/$metadata#Role.Role", 
+        "@odata.etag": "W/\"0AFBA434\"", 
+        "@odata.id": "/redfish/v1/AccountService/Roles/dirgroupb3d8954f6ebbe735764e9f7c/", 
+        "AssignedPrivileges": [
+          "Login", 
+          "ConfigureSelf", 
+          "ConfigureManager", 
+          "ConfigureUsers"
+        ], 
+        "Description": "iLO Directory Group Role", 
+        "Id": "dirgroupb3d8954f6ebbe735764e9f7c", 
+        "IsPredefined": false, 
+        "Name": "Group Role", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeDirectoryGroup.HpeDirectoryGroup", 
+            "@odata.type": "#HpeDirectoryGroup.v1_0_0.HpeDirectoryGroup", 
+            "GroupDn": "Administrators", 
+            "GroupSid": ""
+          }
+        }, 
+        "OemPrivileges": [
+          "RemoteConsolePriv", 
+          "VirtualMediaPriv", 
+          "VirtualPowerAndResetPriv", 
+          "HostBIOSConfigPriv", 
+          "HostNICConfigPriv", 
+          "HostStorageConfigPriv"
+        ], 
+        "RoleId": "dirgroupb3d8954f6ebbe735764e9f7c"
+      }
+    }
+  }, 
+  {
+    "#Role.v1_2_1.Role": {
+      "/redfish/v1/AccountService/Roles/Operator/": {
+        "@odata.context": "/redfish/v1/$metadata#Role.Role", 
+        "@odata.etag": "W/\"B60B0A30\"", 
+        "@odata.id": "/redfish/v1/AccountService/Roles/Operator/", 
+        "AssignedPrivileges": [
+          "Login", 
+          "ConfigureSelf", 
+          "ConfigureComponents"
+        ], 
+        "Description": "iLO User Role", 
+        "Id": "Operator", 
+        "IsPredefined": true, 
+        "Name": "User Role", 
+        "OemPrivileges": [
+          "RemoteConsolePriv", 
+          "VirtualMediaPriv", 
+          "VirtualPowerAndResetPriv", 
+          "HostBIOSConfigPriv", 
+          "HostNICConfigPriv", 
+          "HostStorageConfigPriv"
+        ], 
+        "RoleId": "Operator"
+      }
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#VirtualMedia.v1_2_0.VirtualMedia": {
+      "/redfish/v1/Managers/1/VirtualMedia/1/": {
+        "@odata.context": "/redfish/v1/$metadata#VirtualMedia.VirtualMedia", 
+        "@odata.etag": "W/\"EEC3613B\"", 
+        "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/1/", 
+        "Actions": {
+          "#VirtualMedia.EjectMedia": {
+            "target": "/redfish/v1/Managers/1/VirtualMedia/1/Actions/VirtualMedia.EjectMedia/"
+          }, 
+          "#VirtualMedia.InsertMedia": {
+            "target": "/redfish/v1/Managers/1/VirtualMedia/1/Actions/VirtualMedia.InsertMedia/"
+          }
+        }, 
+        "ConnectedVia": "URI", 
+        "Description": "Virtual Removable Media", 
+        "Id": "1", 
+        "Image": "http://16.105.172.100/deploy-installer-10.162.1-psi21+sva-4.1.0.266-usb-tiny.img", 
+        "ImageName": "deploy-installer-10.162.1-psi21+sva-4.1.0.266-usb-tiny.img", 
+        "Inserted": true, 
+        "MediaTypes": [
+          "Floppy", 
+          "USBStick"
+        ], 
+        "Name": "VirtualMedia", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOVirtualMedia.HpeiLOVirtualMedia", 
+            "@odata.type": "#HpeiLOVirtualMedia.v2_2_0.HpeiLOVirtualMedia", 
+            "Actions": {
+              "#HpeiLOVirtualMedia.EjectVirtualMedia": {
+                "target": "/redfish/v1/Managers/1/VirtualMedia/1/Actions/Oem/Hpe/HpeiLOVirtualMedia.EjectVirtualMedia/"
+              }, 
+              "#HpeiLOVirtualMedia.InsertVirtualMedia": {
+                "target": "/redfish/v1/Managers/1/VirtualMedia/1/Actions/Oem/Hpe/HpeiLOVirtualMedia.InsertVirtualMedia/"
+              }
+            }
+          }
+        }, 
+        "WriteProtected": true
+      }
+    }
+  }, 
+  {
+    "#VirtualMedia.v1_2_0.VirtualMedia": {
+      "/redfish/v1/Managers/1/VirtualMedia/2/": {
+        "@odata.context": "/redfish/v1/$metadata#VirtualMedia.VirtualMedia", 
+        "@odata.etag": "W/\"14700DD6\"", 
+        "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/2/", 
+        "Actions": {
+          "#VirtualMedia.EjectMedia": {
+            "target": "/redfish/v1/Managers/1/VirtualMedia/2/Actions/VirtualMedia.EjectMedia/"
+          }, 
+          "#VirtualMedia.InsertMedia": {
+            "target": "/redfish/v1/Managers/1/VirtualMedia/2/Actions/VirtualMedia.InsertMedia/"
+          }
+        }, 
+        "ConnectedVia": "NotConnected", 
+        "Description": "Virtual Removable Media", 
+        "Id": "2", 
+        "Image": "", 
+        "Inserted": false, 
+        "MediaTypes": [
+          "CD", 
+          "DVD"
+        ], 
+        "Name": "VirtualMedia", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOVirtualMedia.HpeiLOVirtualMedia", 
+            "@odata.type": "#HpeiLOVirtualMedia.v2_2_0.HpeiLOVirtualMedia", 
+            "Actions": {
+              "#HpeiLOVirtualMedia.EjectVirtualMedia": {
+                "target": "/redfish/v1/Managers/1/VirtualMedia/2/Actions/Oem/Hpe/HpeiLOVirtualMedia.EjectVirtualMedia/"
+              }, 
+              "#HpeiLOVirtualMedia.InsertVirtualMedia": {
+                "target": "/redfish/v1/Managers/1/VirtualMedia/2/Actions/Oem/Hpe/HpeiLOVirtualMedia.InsertVirtualMedia/"
+              }
+            }, 
+            "BootOnNextServerReset": false
+          }
+        }, 
+        "WriteProtected": true
+      }
+    }
+  }
+]

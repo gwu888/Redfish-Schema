@@ -1,0 +1,67 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#EthernetInterfaceCollection.EthernetInterfaceCollection": {
+      "/redfish/v1/Systems/1/EthernetInterfaces/": {
+        "@odata.context": "/redfish/v1/$metadata#EthernetInterfaceCollection.EthernetInterfaceCollection", 
+        "@odata.etag": "W/\"D5EC731D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/", 
+        "Description": "Collection of System Ethernet Interfaces", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/4/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/5/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/6/"
+          }
+        ], 
+        "Members@odata.count": 6, 
+        "Name": "System Ethernet Interfaces"
+      }
+    }
+  }, 
+  {
+    "#EthernetInterfaceCollection.EthernetInterfaceCollection": {
+      "/redfish/v1/Managers/1/EthernetInterfaces/": {
+        "@odata.context": "/redfish/v1/$metadata#EthernetInterfaceCollection.EthernetInterfaceCollection", 
+        "@odata.etag": "W/\"E589C4BF\"", 
+        "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/", 
+        "Description": "Configuration of Manager Network Interfaces", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/3/"
+          }
+        ], 
+        "Members@odata.count": 3, 
+        "Name": "Manager Network Interfaces"
+      }
+    }
+  }
+]

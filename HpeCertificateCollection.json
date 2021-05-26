@@ -1,0 +1,38 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeCertificateCollection.HpeCertificateCollection": {
+      "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/CACertificates/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeCertificateCollection.HpeCertificateCollection", 
+        "@odata.etag": "W/\"75983E8D\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/CACertificates/", 
+        "Description": "Trusted CA Certificates for Certificate Authentication", 
+        "Members": [], 
+        "Members@odata.count": 0, 
+        "Name": "CA Certificates"
+      }
+    }
+  }, 
+  {
+    "#HpeCertificateCollection.HpeCertificateCollection": {
+      "/redfish/v1/EventService/CACertificates/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeCertificateCollection.HpeCertificateCollection", 
+        "@odata.etag": "W/\"75983E8D\"", 
+        "@odata.id": "/redfish/v1/EventService/CACertificates/", 
+        "Description": "Trusted CA Certificates for REST Event Mutual Authentication", 
+        "Members": [], 
+        "Members@odata.count": 0, 
+        "Name": "REST CA Certificates"
+      }
+    }
+  }
+]

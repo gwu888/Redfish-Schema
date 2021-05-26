@@ -1,0 +1,683 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/19/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/19/", 
+        "Description": "9005028f103c0650", 
+        "Id": "19", 
+        "Name": "HPE Smart Array E208i-p SR Gen10", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": null, 
+            "DeviceContext": "PCI-E Slot 3", 
+            "DeviceInstance": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)", 
+            "Targets": [
+              "a6b1a447-382a-5a4f-9005-028f103c0650"
+            ]
+          }
+        }, 
+        "Version": "3.00"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/4/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"918DA6A4\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/4/", 
+        "Description": "SystemProgrammableLogicDevice", 
+        "Id": "4", 
+        "Name": "System Programmable Logic Device", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07", 
+            "DeviceContext": "System Board", 
+            "Targets": [
+              "00000000-0000-0000-0000-000000000205"
+            ]
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "Version": "0x2A"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/23/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/23/", 
+        "Description": "VK000960GWEZD", 
+        "Id": "23", 
+        "Name": "Drive", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811", 
+            "DeviceContext": "Embedded controller Port 1I Box 3 Bay 2", 
+            "Targets": [
+              "562340a5-304b-3030-3936-304757455a44"
+            ]
+          }
+        }, 
+        "Version": "HPGE"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/25/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/25/", 
+        "Description": "VK000960GWEZD", 
+        "Id": "25", 
+        "Name": "Drive", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811", 
+            "DeviceContext": "Embedded controller Port 2I Box 3 Bay 5", 
+            "Targets": [
+              "562340a5-304b-3030-3936-304757455a44"
+            ]
+          }
+        }, 
+        "Version": "HPGE"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/21/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/21/", 
+        "Description": "VK000960GWEZD", 
+        "Id": "21", 
+        "Name": "Drive", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811", 
+            "DeviceContext": "Embedded controller Port 1I Box 3 Bay 4", 
+            "Targets": [
+              "562340a5-304b-3030-3936-304757455a44"
+            ]
+          }
+        }, 
+        "Version": "HPGE"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/27/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/27/", 
+        "Description": "EG000300JWFVB", 
+        "Id": "27", 
+        "Name": "Drive", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811", 
+            "DeviceContext": "PCI-E Slot 3 Port 1I Box 6 Bay 2", 
+            "Targets": [
+              "452340a5-3047-3030-3330-304a57465642"
+            ]
+          }
+        }, 
+        "Version": "HPD2"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/11/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/11/", 
+        "Description": "SPSFirmwareDescriptor", 
+        "Id": "11", 
+        "Name": "Server Platform Services (SPS) Descriptor", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "3f30a329-d03c-46b8-8f0e-9567fad4ea9f", 
+            "DeviceContext": "System Board", 
+            "Targets": [
+              "00000000-0000-0000-0000-000000000205"
+            ]
+          }
+        }, 
+        "Version": "1.2 0"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/13/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"1DF5B87E\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/13/", 
+        "Description": "Intelligent Provisioning", 
+        "Id": "13", 
+        "Name": "Intelligent Provisioning", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "ac963eeb-ed78-4f36-c18c-29d85f34a0ac", 
+            "DeviceContext": "System Board"
+          }
+        }, 
+        "Version": "3.10.222"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/15/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/15/", 
+        "Description": "14e4168e103c1930", 
+        "Id": "15", 
+        "Name": "HP FlexFabric 10Gb 2port 534FLR-SFP+ Adapter", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": null, 
+            "DeviceContext": "Embedded ALOM", 
+            "DeviceInstance": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)", 
+            "Targets": [
+              "a6b1a447-382a-5a4f-14e4-168e103c1930"
+            ]
+          }
+        }, 
+        "Version": "7.18.69"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/17/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/17/", 
+        "Description": "9005028f103c0602", 
+        "Id": "17", 
+        "Name": "HPE Smart Array P408i-a SR Gen10", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": null, 
+            "DeviceContext": "Embedded RAID", 
+            "DeviceInstance": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)", 
+            "Targets": [
+              "a6b1a447-382a-5a4f-9005-028f103c0602"
+            ]
+          }
+        }, 
+        "Version": "3.00"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/3/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/3/", 
+        "Description": "PlatformDefinitionTable", 
+        "Id": "3", 
+        "Name": "Intelligent Platform Abstraction Data", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "b8f46d06-85db-465c-94fb-d106e61378ed", 
+            "DeviceContext": "System Board", 
+            "Targets": [
+              "00000000-0000-0000-0000-000000000205", 
+              "00000000-0000-0000-0000-000001553330"
+            ]
+          }
+        }, 
+        "Version": "14.3.0 Build 50"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/1/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"918DA6A4\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/1/", 
+        "Description": "SystemBMC", 
+        "Id": "1", 
+        "Name": "iLO 5", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952", 
+            "DeviceContext": "System Board", 
+            "Targets": [
+              "4764a662-b342-4fc7-9ce9-258c5d99e815", 
+              "c0bcf2b9-1141-49af-aab8-c73791f0349c"
+            ]
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "Version": "2.31 Oct 13 2020"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/7/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/7/", 
+        "Description": "PowerSupplies", 
+        "Id": "7", 
+        "Name": "Power Supply Firmware", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "6bb86077-0275-4614-aae1-86618e8b1c27", 
+            "DeviceContext": "Bay 2", 
+            "Targets": [
+              "0102bb05-0001-0000-0000-0cf38db966ea"
+            ]
+          }
+        }, 
+        "Version": "1.00"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/20/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/20/", 
+        "Description": "102b0538159000e4", 
+        "Id": "20", 
+        "Name": "Embedded Video Controller", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": null, 
+            "DeviceContext": "Embedded Device", 
+            "DeviceInstance": "PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x1)", 
+            "Targets": [
+              "a6b1a447-382a-5a4f-102b-0538159000e4"
+            ]
+          }
+        }, 
+        "Version": "2.5"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/18/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/18/", 
+        "Description": "1bb000101bb00010", 
+        "Id": "18", 
+        "Name": "PCIe Controller", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": null, 
+            "DeviceContext": "PCI-E Slot 1", 
+            "DeviceInstance": "PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)", 
+            "Targets": [
+              "a6b1a447-382a-5a4f-1bb0-00101bb00010"
+            ]
+          }
+        }, 
+        "Version": "N/A"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/5/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/5/", 
+        "Description": "PowerManagementController", 
+        "Id": "5", 
+        "Name": "Power Management Controller Firmware", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f", 
+            "DeviceContext": "System Board", 
+            "Targets": [
+              "00000000-0000-0000-0000-000000000205", 
+              "00000000-0000-0000-0000-000000504d05"
+            ]
+          }
+        }, 
+        "Version": "1.0.7"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/22/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/22/", 
+        "Description": "VK000960GWEZD", 
+        "Id": "22", 
+        "Name": "Drive", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811", 
+            "DeviceContext": "Embedded controller Port 1I Box 3 Bay 3", 
+            "Targets": [
+              "562340a5-304b-3030-3936-304757455a44"
+            ]
+          }
+        }, 
+        "Version": "HPGE"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/24/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/24/", 
+        "Description": "VK000960GWEZD", 
+        "Id": "24", 
+        "Name": "Drive", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811", 
+            "DeviceContext": "Embedded controller Port 1I Box 3 Bay 1", 
+            "Targets": [
+              "562340a5-304b-3030-3936-304757455a44"
+            ]
+          }
+        }, 
+        "Version": "HPGE"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/9/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"918DA6A4\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/9/", 
+        "Description": "SPSFirmwareVersionData", 
+        "Id": "9", 
+        "Name": "Server Platform Services (SPS) Firmware", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053", 
+            "DeviceContext": "System Board", 
+            "Targets": [
+              "00000000-0000-0000-0000-000000000205", 
+              "a6b1a447-382a-5a4f-3c10-86800a000101"
+            ]
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "Version": "4.1.4.423"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/26/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/26/", 
+        "Description": "EG000300JWFVB", 
+        "Id": "26", 
+        "Name": "Drive", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811", 
+            "DeviceContext": "PCI-E Slot 3 Port 1I Box 6 Bay 1", 
+            "Targets": [
+              "452340a5-3047-3030-3330-304a57465642"
+            ]
+          }
+        }, 
+        "Version": "HPD2"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/10/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/10/", 
+        "Description": "SmartStorageEnergyPack", 
+        "Id": "10", 
+        "Name": "Smart Storage Energy Pack", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "3f634e80-345f-45dd-951a-bae7b3b28d8f", 
+            "DeviceContext": "Energy Pack 1", 
+            "Targets": [
+              "bea9df69-526e-4d78-a27d-fe5283420060"
+            ]
+          }
+        }, 
+        "Version": "0.60"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/12/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"1DF5B87E\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/12/", 
+        "Description": "SystemRomBackup", 
+        "Id": "12", 
+        "Name": "Redundant System ROM", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": null, 
+            "DeviceContext": "System Board"
+          }
+        }, 
+        "Version": "U30 v2.32 (03/09/2020)"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/14/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"1DF5B87E\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/14/", 
+        "Description": "PowerManagementControllerBootloader", 
+        "Id": "14", 
+        "Name": "Power Management Controller FW Bootloader", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": null, 
+            "DeviceContext": "System Board"
+          }
+        }, 
+        "Version": "1.1"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/8/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"918DA6A4\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/8/", 
+        "Description": "InnovationEngineFirmware", 
+        "Id": "8", 
+        "Name": "Innovation Engine (IE) Firmware", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d", 
+            "DeviceContext": "System Board", 
+            "Targets": [
+              "00000000-0000-0000-0000-000000000205", 
+              "a6b1a447-382a-5a4f-3c10-3c100a000303"
+            ]
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "Version": "0.2.2.0"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/16/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/16/", 
+        "Description": "14e41657103c22be", 
+        "Id": "16", 
+        "Name": "HPE Ethernet 1Gb 4-port 331i Adapter - NIC", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": null, 
+            "DeviceContext": "Embedded LOM", 
+            "DeviceInstance": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)", 
+            "Targets": [
+              "a6b1a447-382a-5a4f-14e4-1657103c22be"
+            ]
+          }
+        }, 
+        "Version": "20.16.31"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/2/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"918DA6A4\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/2/", 
+        "Description": "SystemRomActive", 
+        "Id": "2", 
+        "Name": "System ROM", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4", 
+            "DeviceContext": "System Board", 
+            "Targets": [
+              "00000000-0000-0000-0000-000000000205", 
+              "00000000-0000-0000-0000-000001553330"
+            ]
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "Version": "U30 v2.40 (10/26/2020)"
+      }
+    }
+  }, 
+  {
+    "#SoftwareInventory.v1_0_0.SoftwareInventory": {
+      "/redfish/v1/UpdateService/FirmwareInventory/6/": {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory", 
+        "@odata.etag": "W/\"0539D502\"", 
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/6/", 
+        "Description": "PowerSupplies", 
+        "Id": "6", 
+        "Name": "Power Supply Firmware", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory", 
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory", 
+            "DeviceClass": "6bb86077-0275-4614-aae1-86618e8b1c27", 
+            "DeviceContext": "Bay 1", 
+            "Targets": [
+              "0102bb05-0001-0000-0000-0cf38db966ea"
+            ]
+          }
+        }, 
+        "Version": "1.00"
+      }
+    }
+  }
+]

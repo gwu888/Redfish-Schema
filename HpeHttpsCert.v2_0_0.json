@@ -1,0 +1,38 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeHttpsCert.v2_0_0.HpeHttpsCert": {
+      "/redfish/v1/Managers/1/SecurityService/HttpsCert/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeHttpsCert.HpeHttpsCert", 
+        "@odata.etag": "W/\"5588DEFB\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert/", 
+        "Actions": {
+          "#HpeHttpsCert.GenerateCSR": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.GenerateCSR/"
+          }, 
+          "#HpeHttpsCert.ImportCertificate": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.ImportCertificate/"
+          }
+        }, 
+        "CertificateSigningRequest": null, 
+        "Id": "HttpsCert", 
+        "X509CertificateInformation": {
+          "Issuer": "CN = Default Issuer (Do not trust), O = Hewlett Packard Enterprise, OU = ISS, L = Houston, ST = Texas, C = US", 
+          "SerialNumber": "ab:5c:d4:6a:21:bb:5e:53", 
+          "Subject": "CN = ILO2M281700WJ, O = Hewlett Packard Enterprise, OU = ISS, L = Houston, ST = Texas, C = US", 
+          "ValidNotAfter": "2033-04-24T10:23:40Z", 
+          "ValidNotBefore": "2018-04-25T10:23:40Z"
+        }
+      }
+    }
+  }
+]

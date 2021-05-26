@@ -1,0 +1,156 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeSmartStorageLogicalDrive.v2_3_0.HpeSmartStorageLogicalDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageLogicalDrive.HpeSmartStorageLogicalDrive", 
+        "@odata.etag": "W/\"0CA9078D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/3/", 
+        "AccelerationMethod": "ControllerCache", 
+        "CapacityMiB": 3195792, 
+        "Description": "HPE Smart Storage Logical Drive View", 
+        "Id": "3", 
+        "InterfaceType": "SATA", 
+        "LegacyBootPriority": "None", 
+        "Links": {
+          "DataDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/3/DataDrives/"
+          }
+        }, 
+        "LogicalDriveEncryption": false, 
+        "LogicalDriveName": "08F40183PEYHC0CRHAN0WO 2F98", 
+        "LogicalDriveNumber": 3, 
+        "LogicalDriveStatusReasons": [
+          "Ok"
+        ], 
+        "LogicalDriveType": "Data", 
+        "MediaType": "SSD", 
+        "Name": "HpeSmartStorageLogicalDrive", 
+        "Raid": "5", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "StripeSizeBytes": 65536, 
+        "VolumeUniqueIdentifier": "600508B1001C925F3FFB7C371C31FBF3"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageLogicalDrive.v2_3_0.HpeSmartStorageLogicalDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageLogicalDrive.HpeSmartStorageLogicalDrive", 
+        "@odata.etag": "W/\"27A758BD\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/1/", 
+        "AccelerationMethod": "ControllerCache", 
+        "CapacityMiB": 204796, 
+        "Description": "HPE Smart Storage Logical Drive View", 
+        "Id": "1", 
+        "InterfaceType": "SATA", 
+        "LegacyBootPriority": "None", 
+        "Links": {
+          "DataDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/1/DataDrives/"
+          }
+        }, 
+        "LogicalDriveEncryption": false, 
+        "LogicalDriveName": "00F40156PEYHC0CRHAN0WO A0C3", 
+        "LogicalDriveNumber": 1, 
+        "LogicalDriveStatusReasons": [
+          "Ok"
+        ], 
+        "LogicalDriveType": "Data", 
+        "MediaType": "SSD", 
+        "Name": "HpeSmartStorageLogicalDrive", 
+        "Raid": "5", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "StripeSizeBytes": 65536, 
+        "VolumeUniqueIdentifier": "600508B1001C48555E4F86850C8D6110"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageLogicalDrive.v2_3_0.HpeSmartStorageLogicalDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/LogicalDrives/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageLogicalDrive.HpeSmartStorageLogicalDrive", 
+        "@odata.etag": "W/\"A016C10B\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/LogicalDrives/1/", 
+        "AccelerationMethod": "ControllerCache", 
+        "CapacityMiB": 286070, 
+        "Description": "HPE Smart Storage Logical Drive View", 
+        "Id": "1", 
+        "InterfaceType": "SAS", 
+        "LegacyBootPriority": "None", 
+        "Links": {
+          "DataDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/LogicalDrives/1/DataDrives/"
+          }
+        }, 
+        "LogicalDriveEncryption": false, 
+        "LogicalDriveName": "00F37763PEYHL0ARCAK0C1 24D2", 
+        "LogicalDriveNumber": 1, 
+        "LogicalDriveStatusReasons": [
+          "Ok"
+        ], 
+        "LogicalDriveType": "Data", 
+        "MediaType": "HDD", 
+        "Name": "HpeSmartStorageLogicalDrive", 
+        "Raid": "1", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "StripeSizeBytes": 262144, 
+        "VolumeUniqueIdentifier": "600508B1001C33B9EEDE3F16D69198F8"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageLogicalDrive.v2_3_0.HpeSmartStorageLogicalDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/2/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageLogicalDrive.HpeSmartStorageLogicalDrive", 
+        "@odata.etag": "W/\"11375AE6\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/2/", 
+        "AccelerationMethod": "ControllerCache", 
+        "CapacityMiB": 262144, 
+        "Description": "HPE Smart Storage Logical Drive View", 
+        "Id": "2", 
+        "InterfaceType": "SATA", 
+        "LegacyBootPriority": "None", 
+        "Links": {
+          "DataDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/2/DataDrives/"
+          }
+        }, 
+        "LogicalDriveEncryption": false, 
+        "LogicalDriveName": "04F4017APEYHC0CRHAN0WO C230", 
+        "LogicalDriveNumber": 2, 
+        "LogicalDriveStatusReasons": [
+          "Ok"
+        ], 
+        "LogicalDriveType": "Data", 
+        "MediaType": "SSD", 
+        "Name": "HpeSmartStorageLogicalDrive", 
+        "Raid": "5", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "StripeSizeBytes": 65536, 
+        "VolumeUniqueIdentifier": "600508B1001CC74F593E0C8317171A4D"
+      }
+    }
+  }
+]

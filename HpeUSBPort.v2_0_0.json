@@ -1,0 +1,306 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/11/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"00A86578\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/11/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "11", 
+        "InstanceNumber": 2, 
+        "Location": "Back", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB2HighSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0xC,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/4/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"266F0143\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/4/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "4", 
+        "InstanceNumber": 1, 
+        "Location": "Front", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB2HighSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x4,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/5/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"2FF515DD\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/5/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "5", 
+        "InstanceNumber": 2, 
+        "Location": "Front", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB3SuperSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x11,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/10/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"32CC6E41\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/10/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "10", 
+        "InstanceNumber": 2, 
+        "Location": "Internal", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB3SuperSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x12,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/9/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"6D6F3F99\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/9/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "9", 
+        "InstanceNumber": 2, 
+        "Location": "Internal", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB2HighSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x7,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/12/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"C7DA55A4\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/12/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "12", 
+        "InstanceNumber": 2, 
+        "Location": "Back", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB3SuperSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x14,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/13/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"0F67E82B\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/13/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "13", 
+        "InstanceNumber": 1, 
+        "Location": "Back", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB2HighSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0xD,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/8/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"34AEA783\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/8/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "8", 
+        "InstanceNumber": 1, 
+        "Location": "InternalSDCard", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB3SuperSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x13,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"1F4226E1\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/1/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "1", 
+        "InstanceNumber": 1, 
+        "Location": "InternalManagement", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB2HighSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x2,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/14/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"EB33B086\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/14/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "14", 
+        "InstanceNumber": 1, 
+        "Location": "Back", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB3SuperSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x15,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/2/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"71352663\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/2/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "2", 
+        "InstanceNumber": 1, 
+        "Location": "Internal", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB2HighSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x3,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"F33A74EB\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/3/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "3", 
+        "InstanceNumber": 1, 
+        "Location": "Internal", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB3SuperSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x10,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/6/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"7CC9A3D7\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/6/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "6", 
+        "InstanceNumber": 2, 
+        "Location": "Front", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB2HighSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x5,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeUSBPort.v2_0_0.HpeUSBPort": {
+      "/redfish/v1/Systems/1/USBPorts/7/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort", 
+        "@odata.etag": "W/\"AD744BC1\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBPorts/7/", 
+        "Description": "USB Port Connector Information", 
+        "Id": "7", 
+        "InstanceNumber": 1, 
+        "Location": "InternalSDCard", 
+        "Name": "USB Port Connector", 
+        "PCIBusNumber": 0, 
+        "PCIDeviceNumber": 20, 
+        "PCIFunctionNumber": 0, 
+        "ParentHubInstance": 0, 
+        "SharedCapability": "UnsharedManagement", 
+        "SpeedCapability": "USB2HighSpeed", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x6,0x0)"
+      }
+    }
+  }
+]

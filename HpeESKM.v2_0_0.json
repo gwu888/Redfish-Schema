@@ -1,0 +1,42 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeESKM.v2_0_0.HpeESKM": {
+      "/redfish/v1/Managers/1/SecurityService/ESKM/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeESKM.HpeESKM", 
+        "@odata.etag": "W/\"4328A99C\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/ESKM/", 
+        "Actions": {
+          "#HpeESKM.ClearESKMLog": {
+            "target": "/redfish/v1/Managers/1/SecurityService/ESKM/Actions/HpeESKM.ClearESKMLog/"
+          }, 
+          "#HpeESKM.TestESKMConnections": {
+            "target": "/redfish/v1/Managers/1/SecurityService/ESKM/Actions/HpeESKM.TestESKMConnections/"
+          }
+        }, 
+        "Id": "ESKM", 
+        "KeyManagerConfig": {
+          "AccountGroup": "", 
+          "AccountName": "ilo-d06726d14c88", 
+          "ESKMLocalCACertificateName": "", 
+          "ImportedCertificateIssuer": "", 
+          "ImportedCertificateSubject": ""
+        }, 
+        "KeyServerRedundancyReq": false, 
+        "PrimaryKeyServerAddress": null, 
+        "PrimaryKeyServerPort": null, 
+        "SecondaryKeyServerAddress": null, 
+        "SecondaryKeyServerPort": null
+      }
+    }
+  }
+]

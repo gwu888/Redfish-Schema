@@ -1,0 +1,207 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#Triggers.v1_0_0.Triggers": {
+      "/redfish/v1/TelemetryService/Triggers/CPUICUtilTriggers/": {
+        "@odata.context": "/redfish/v1/$metadata#Triggers.Triggers", 
+        "@odata.etag": "W/\"7287563F\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPUICUtilTriggers/", 
+        "Description": "Triggers for CPU interconnect utilization", 
+        "Id": "CPUICUtilTriggers", 
+        "MetricProperties": [
+          "/redfish/v1/Systems/1/#SystemUsage/CPUICUtil"
+        ], 
+        "MetricType": "Numeric", 
+        "Name": "Triggers for CPU interconnect utilization", 
+        "NumericThresholds": {
+          "UpperCritical": {
+            "Activation": "Increasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "TriggerActions": [
+          "LogToLogService"
+        ]
+      }
+    }
+  }, 
+  {
+    "#Triggers.v1_0_0.Triggers": {
+      "/redfish/v1/TelemetryService/Triggers/JitterCountTriggers/": {
+        "@odata.context": "/redfish/v1/$metadata#Triggers.Triggers", 
+        "@odata.etag": "W/\"7287563F\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/Triggers/JitterCountTriggers/", 
+        "Description": "Triggers for Jitter Count", 
+        "Id": "JitterCountTriggers", 
+        "MetricProperties": [
+          "/redfish/v1/Systems/1/#SystemUsage/JitterCount"
+        ], 
+        "MetricType": "Numeric", 
+        "Name": "Triggers for Jitter Count", 
+        "NumericThresholds": {
+          "UpperCritical": {
+            "Activation": "Increasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "TriggerActions": [
+          "LogToLogService"
+        ]
+      }
+    }
+  }, 
+  {
+    "#Triggers.v1_0_0.Triggers": {
+      "/redfish/v1/TelemetryService/Triggers/CPUUtilTriggers/": {
+        "@odata.context": "/redfish/v1/$metadata#Triggers.Triggers", 
+        "@odata.etag": "W/\"BFAAE441\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPUUtilTriggers/", 
+        "Description": "Triggers for CPU Utilization", 
+        "Id": "CPUUtilTriggers", 
+        "MetricProperties": [
+          "/redfish/v1/Systems/1/#SystemUsage/CPUUtil"
+        ], 
+        "MetricType": "Numeric", 
+        "Name": "Triggers for CPU Utilization", 
+        "NumericThresholds": {
+          "LowerCritical": {
+            "Activation": "Decreasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }, 
+          "UpperCritical": {
+            "Activation": "Increasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "TriggerActions": [
+          "LogToLogService"
+        ]
+      }
+    }
+  }, 
+  {
+    "#Triggers.v1_0_0.Triggers": {
+      "/redfish/v1/TelemetryService/Triggers/IOBusUtilTriggers/": {
+        "@odata.context": "/redfish/v1/$metadata#Triggers.Triggers", 
+        "@odata.etag": "W/\"BFAAE441\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/Triggers/IOBusUtilTriggers/", 
+        "Description": "Triggers for I/O Bus utilization", 
+        "Id": "IOBusUtilTriggers", 
+        "MetricProperties": [
+          "/redfish/v1/Systems/1/#SystemUsage/IOBusUtil"
+        ], 
+        "MetricType": "Numeric", 
+        "Name": "Triggers for I/O Bus utilization", 
+        "NumericThresholds": {
+          "LowerCritical": {
+            "Activation": "Decreasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }, 
+          "UpperCritical": {
+            "Activation": "Increasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "TriggerActions": [
+          "LogToLogService"
+        ]
+      }
+    }
+  }, 
+  {
+    "#Triggers.v1_0_0.Triggers": {
+      "/redfish/v1/TelemetryService/Triggers/CPU0PowerTriggers/": {
+        "@odata.context": "/redfish/v1/$metadata#Triggers.Triggers", 
+        "@odata.etag": "W/\"7287563F\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPU0PowerTriggers/", 
+        "Description": "Triggers for average CPU0 power", 
+        "Id": "CPU0PowerTriggers", 
+        "MetricProperties": [
+          "/redfish/v1/Systems/1/#SystemUsage/CPU0Power"
+        ], 
+        "MetricType": "Numeric", 
+        "Name": "Triggers for average CPU0 power", 
+        "NumericThresholds": {
+          "UpperCritical": {
+            "Activation": "Increasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "TriggerActions": [
+          "LogToLogService"
+        ]
+      }
+    }
+  }, 
+  {
+    "#Triggers.v1_0_0.Triggers": {
+      "/redfish/v1/TelemetryService/Triggers/MemoryBusUtilTriggers/": {
+        "@odata.context": "/redfish/v1/$metadata#Triggers.Triggers", 
+        "@odata.etag": "W/\"BFAAE441\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/Triggers/MemoryBusUtilTriggers/", 
+        "Description": "Triggers for Memory Bus Utilization", 
+        "Id": "MemoryBusUtilTriggers", 
+        "MetricProperties": [
+          "/redfish/v1/Systems/1/#SystemUsage/MemoryBusUtil"
+        ], 
+        "MetricType": "Numeric", 
+        "Name": "Triggers for Memory Bus Utilization", 
+        "NumericThresholds": {
+          "LowerCritical": {
+            "Activation": "Decreasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }, 
+          "UpperCritical": {
+            "Activation": "Increasing", 
+            "DwellTime": "PT0S", 
+            "Reading": 0
+          }
+        }, 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "TriggerActions": [
+          "LogToLogService"
+        ]
+      }
+    }
+  }
+]

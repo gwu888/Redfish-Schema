@@ -1,0 +1,32 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeBaseNetworkAdapterCollection.HpeBaseNetworkAdapterCollection": {
+      "/redfish/v1/Systems/1/BaseNetworkAdapters/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterCollection.HpeBaseNetworkAdapterCollection", 
+        "@odata.etag": "W/\"570254F2\"", 
+        "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/", 
+        "Description": "NetworkAdapters view", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2/"
+          }
+        ], 
+        "Members@odata.count": 2, 
+        "Name": "NetworkAdapters Collection"
+      }
+    }
+  }
+]

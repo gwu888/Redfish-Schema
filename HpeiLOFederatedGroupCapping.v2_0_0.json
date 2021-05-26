@@ -1,0 +1,33 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeiLOFederatedGroupCapping.v2_0_0.HpeiLOFederatedGroupCapping": {
+      "/redfish/v1/Chassis/1/Power/FederatedGroupCapping/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOFederatedGroupCapping.HpeiLOFederatedGroupCapping", 
+        "@odata.etag": "W/\"10365CB5\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Power/FederatedGroupCapping/", 
+        "CapWatts": 0, 
+        "CapacityWatts": 1600, 
+        "Groups": {
+          "DEFAULT": {
+            "AllocatedPowerWatts": 0, 
+            "CapLimitPctTenths": null, 
+            "CapLimitWatts": 0
+          }
+        }, 
+        "Id": "FederatedGroupCapping", 
+        "Name": "iLO Federated Group Power Capping", 
+        "Throttle": "Low"
+      }
+    }
+  }
+]

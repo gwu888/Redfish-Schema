@@ -1,0 +1,49 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeSmartStorageStorageEnclosureCollection.HpeSmartStorageStorageEnclosureCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/StorageEnclosures/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageStorageEnclosureCollection.HpeSmartStorageStorageEnclosureCollection", 
+        "@odata.etag": "W/\"570254F2\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/StorageEnclosures/", 
+        "Description": "HPE Smart Storage Enclosures View", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/StorageEnclosures/0/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/StorageEnclosures/1/"
+          }
+        ], 
+        "Members@odata.count": 2, 
+        "Name": "HpSmartStorageEnclosures"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageStorageEnclosureCollection.HpeSmartStorageStorageEnclosureCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/StorageEnclosures/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageStorageEnclosureCollection.HpeSmartStorageStorageEnclosureCollection", 
+        "@odata.etag": "W/\"AA6D42B0\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/StorageEnclosures/", 
+        "Description": "HPE Smart Storage Enclosures View", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/StorageEnclosures/0/"
+          }
+        ], 
+        "Members@odata.count": 1, 
+        "Name": "HpSmartStorageEnclosures"
+      }
+    }
+  }
+]

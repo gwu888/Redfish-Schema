@@ -1,0 +1,28 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeiLOBackupRestoreService.v2_2_0.HpeiLOBackupRestoreService": {
+      "/redfish/v1/Managers/1/BackupRestoreService/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOBackupRestoreService.HpeiLOBackupRestoreService", 
+        "@odata.etag": "W/\"D863AC37\"", 
+        "@odata.id": "/redfish/v1/Managers/1/BackupRestoreService/", 
+        "BackupFileLocation": "/bkupdata/HPE_2M281700WJ_20210304_1654.bak", 
+        "BackupFiles": {
+          "@odata.id": "/redfish/v1/Managers/1/BackupRestoreService/BackupFiles/"
+        }, 
+        "HttpPushUri": "/cgi-bin/uploadRestoreFile", 
+        "Id": "BackupRestoreService", 
+        "Name": "Backup Restore Service"
+      }
+    }
+  }
+]

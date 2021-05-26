@@ -1,0 +1,91 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeiLOSSO.v2_0_0.HpeiLOSSO": {
+      "/redfish/v1/Managers/1/SecurityService/SSO/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeiLOSSO.HpeiLOSSO", 
+        "@odata.etag": "W/\"488F9E93\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO/", 
+        "Actions": {
+          "#HpeiLOSSO.DeleteAllSSORecords": {
+            "target": "/redfish/v1/Managers/1/SecurityService/SSO/Actions/HpeiLOSSO.DeleteAllSSORecords/"
+          }, 
+          "#HpeiLOSSO.DeleteSSORecordbyNumber": {
+            "target": "/redfish/v1/Managers/1/SecurityService/SSO/Actions/HpeiLOSSO.DeleteSSORecordbyNumber/"
+          }, 
+          "#HpeiLOSSO.ImportCertificate": {
+            "target": "/redfish/v1/Managers/1/SecurityService/SSO/Actions/HpeiLOSSO.ImportCertificate/"
+          }, 
+          "#HpeiLOSSO.ImportDNSName": {
+            "target": "/redfish/v1/Managers/1/SecurityService/SSO/Actions/HpeiLOSSO.ImportDNSName/"
+          }
+        }, 
+        "Id": "SSO", 
+        "ManagerTrustedCertificates": [
+          {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO/#ManagerTrustedCertificates/1/", 
+            "Certificate": "-----BEGIN CERTIFICATE-----\nMIIFGTCCA4GgAwIBAgICeQ4wDQYJKoZIhvcNAQEMBQAwdTELMAkGA1UEBhMCVVMxEzARBgNVBAgM\nCkNhbGlmb3JuaWExEjAQBgNVBAcMCVBhbG8gQWx0bzEjMCEGA1UECgwaSGV3bGV0dCBQYWNrYXJk\nIEVudGVycHJpc2UxGDAWBgNVBAMMD2NpLTAwNTA1Njg2ZjMzYzAeFw0xOTAzMjUxNDAyMTZaFw0y\nOTAzMjUxNDAyMTZaMHUxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQH\nDAlQYWxvIEFsdG8xIzAhBgNVBAoMGkhld2xldHQgUGFja2FyZCBFbnRlcnByaXNlMRgwFgYDVQQD\nDA9jaS0wMDUwNTY4NmYzM2MwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDbxG8HIXn1\n0oL4nFRctnIoqvVzKPR8xWcvDM7lyOyekD2uVBR0+uDvaLDTY0JleNLjyjDIaVWO92TxKhhRFXNe\nVpJ6gOukW9/yTrfUSUhcOprQXWKcgenhGIWRemjRGcrB7d14h/3X3br+w4fn6daFNtZi90YfoMaZ\n4jfCYnxXkfbCNVtqSc2AqWDcryKVe1nhM/CWK11W9hjI/GipPRcVPRJq2enfhC70trzs8E6+kGkA\nEPjGQSaW7MJ9UNd7pDm9OdtuWjp4wJdyZZTEnUmwhif9FEDiRc8dpOPI6sNC8BixwuqBAtVzgP6Z\nBusXCiDFQAzCD63ZZ1AWCX+lyg53epXy6D/9Ef8JqPGmL5qEFLPtFZwo7yAcdCHNL7flMV8bWyEX\n6VlcJVl2nLX5h7XoM8wItoN2Q8aEI/jSSHxpr1CCQVBlYC2JuMYsqhk9tORaKj8rMIp3utw/kCIR\nuKSKaINGxPN0rrmNoq9igCp5uo/uqdEcR7r7PbmXGEMl1hsCAwEAAaOBsjCBrzCBjQYDVR0RBIGF\nMIGCgg9jaS0wMDUwNTY4NmYzM2OCD2NpLTAwNTA1Njg2ZjMzY4cEEGmsvIIOMTYuMTA1LjE3Mi4x\nODiHEP6AAAAAAAAAQ2gs71U2UQWCGWZlODA6OjQzNjg6MmNlZjo1NTM2OjUxMDWCG1tmZTgwOjo0\nMzY4OjJjZWY6NTUzNjo1MTA1XTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZI\nhvcNAQEMBQADggGBAGMp03Bq2f2ZXBE1Iy73Ln24SEPvEiVzRN9O7usHfU+SJjgxwpplBDx9Xv7V\nyhUGScCqd6e5m2CReuJ/Fc8SXfeOOCOz8eztuciKLWvBDdavZiS51EBzWdYgEziRX5AbJPqfGRmu\nLot70U88foqemUeDhPiR4MlfLMKQgBDd/UAqlnlnM5omFco5AWtgAtj3/zVkMBUqOjxpSBQ0FUIw\nsAuy20mUpB2Y58E44EZ5EeaRc5HvMxmvEYzksqtoxKFT/cIUjTRnWy7oPSd3j3KCnihBpFpLZDnh\nSP0pAlwFKZWcuK1HnozmtnRzNU1gRu7qRq2F7pVYbiwrJueyijQbaH4yWH7q9V5ZbZpyWHZF1gQk\nz2l/gt3cIaju3akJ6QNEkkzG+/pOC797+dI1ISUbiDqwvcUzCcLyNnQyHYazC0l2iU14pX5sfVdu\nSmUtfz53bPAouNNR68tGiG0kS1+QVqCKCAuDIj9KaaG/XfgwrNz7Xq+hbWQJkbfgxAt5d24ymg==\n-----END CERTIFICATE-----", 
+            "CertificateDetails": {
+              "Issuer": "ci-00505686f33c", 
+              "Subject": "ci-00505686f33c", 
+              "ValidNotAfter": "2029-03-25T14:02:16Z", 
+              "ValidNotBefore": "2019-03-25T14:02:16Z"
+            }, 
+            "RecordType": "Certificate", 
+            "SerialNumber": 1, 
+            "ServerName": "ci-00505686f33c", 
+            "Status": "OK"
+          }
+        ], 
+        "SSOsettings": {
+          "AdminPrivilege": {
+            "HostBIOSConfigPriv": true, 
+            "HostNICConfigPriv": true, 
+            "HostStorageConfigPriv": true, 
+            "LoginPriv": true, 
+            "RemoteConsolePriv": true, 
+            "SystemRecoveryConfigPriv": false, 
+            "UserConfigPriv": true, 
+            "VirtualMediaPriv": true, 
+            "VirtualPowerAndResetPriv": true, 
+            "iLOConfigPriv": true
+          }, 
+          "OperatorPrivilege": {
+            "HostBIOSConfigPriv": true, 
+            "HostNICConfigPriv": false, 
+            "HostStorageConfigPriv": false, 
+            "LoginPriv": true, 
+            "RemoteConsolePriv": true, 
+            "SystemRecoveryConfigPriv": false, 
+            "UserConfigPriv": false, 
+            "VirtualMediaPriv": true, 
+            "VirtualPowerAndResetPriv": true, 
+            "iLOConfigPriv": false
+          }, 
+          "SSOTrustMode": "TrustbyCert", 
+          "UserPrivilege": {
+            "HostBIOSConfigPriv": false, 
+            "HostNICConfigPriv": false, 
+            "HostStorageConfigPriv": false, 
+            "LoginPriv": true, 
+            "RemoteConsolePriv": false, 
+            "SystemRecoveryConfigPriv": false, 
+            "UserConfigPriv": false, 
+            "VirtualMediaPriv": false, 
+            "VirtualPowerAndResetPriv": false, 
+            "iLOConfigPriv": false
+          }
+        }
+      }
+    }
+  }
+]

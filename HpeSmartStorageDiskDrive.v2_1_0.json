@@ -1,0 +1,336 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/2/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive", 
+        "@odata.etag": "W/\"873DF290\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/2/", 
+        "BlockSizeBytes": 512, 
+        "CapacityGB": 300, 
+        "CapacityLogicalBlocks": 585937500, 
+        "CapacityMiB": 286102, 
+        "CarrierApplicationVersion": "11", 
+        "CarrierAuthenticationStatus": "OK", 
+        "CurrentTemperatureCelsius": 32, 
+        "Description": "HPE Smart Storage Disk Drive View", 
+        "DiskDriveStatusReasons": [
+          "None"
+        ], 
+        "DiskDriveUse": "Data", 
+        "EncryptedDrive": false, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "HPD2"
+          }
+        }, 
+        "Id": "2", 
+        "InterfaceSpeedMbps": 12000, 
+        "InterfaceType": "SAS", 
+        "LegacyBootPriority": "None", 
+        "Location": "1I:6:2", 
+        "LocationFormat": "ControllerPort:Box:Bay", 
+        "MaximumTemperatureCelsius": 48, 
+        "MediaType": "HDD", 
+        "Model": "EG000300JWFVB", 
+        "Name": "HpeSmartStorageDiskDrive", 
+        "PowerOnHours": null, 
+        "RotationalSpeedRpm": 10000, 
+        "SSDEnduranceUtilizationPercentage": null, 
+        "SerialNumber": "38G0A1XXFQVE1811", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "UncorrectedReadErrors": 0, 
+        "UncorrectedWriteErrors": 0
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/4/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive", 
+        "@odata.etag": "W/\"90CF32C2\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/4/", 
+        "BlockSizeBytes": 512, 
+        "CapacityGB": 960, 
+        "CapacityLogicalBlocks": 1875385008, 
+        "CapacityMiB": 915715, 
+        "CarrierApplicationVersion": "11", 
+        "CarrierAuthenticationStatus": "OK", 
+        "CurrentTemperatureCelsius": 30, 
+        "Description": "HPE Smart Storage Disk Drive View", 
+        "DiskDriveStatusReasons": [
+          "None"
+        ], 
+        "DiskDriveUse": "Data", 
+        "EncryptedDrive": false, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "HPGE"
+          }
+        }, 
+        "Id": "4", 
+        "InterfaceSpeedMbps": 6000, 
+        "InterfaceType": "SATA", 
+        "LegacyBootPriority": "None", 
+        "Location": "2I:3:5", 
+        "LocationFormat": "ControllerPort:Box:Bay", 
+        "MaximumTemperatureCelsius": 48, 
+        "MediaType": "SSD", 
+        "Model": "VK000960GWEZD", 
+        "Name": "HpeSmartStorageDiskDrive", 
+        "PowerOnHours": 20295, 
+        "SSDEnduranceUtilizationPercentage": 0, 
+        "SerialNumber": "172819C47370", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "UncorrectedReadErrors": 0, 
+        "UncorrectedWriteErrors": 0
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/0/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive", 
+        "@odata.etag": "W/\"6DE041FE\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/0/", 
+        "BlockSizeBytes": 512, 
+        "CapacityGB": 300, 
+        "CapacityLogicalBlocks": 585937500, 
+        "CapacityMiB": 286102, 
+        "CarrierApplicationVersion": "11", 
+        "CarrierAuthenticationStatus": "OK", 
+        "CurrentTemperatureCelsius": 32, 
+        "Description": "HPE Smart Storage Disk Drive View", 
+        "DiskDriveStatusReasons": [
+          "None"
+        ], 
+        "DiskDriveUse": "Data", 
+        "EncryptedDrive": false, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "HPD2"
+          }
+        }, 
+        "Id": "0", 
+        "InterfaceSpeedMbps": 12000, 
+        "InterfaceType": "SAS", 
+        "LegacyBootPriority": "None", 
+        "Location": "1I:6:1", 
+        "LocationFormat": "ControllerPort:Box:Bay", 
+        "MaximumTemperatureCelsius": 48, 
+        "MediaType": "HDD", 
+        "Model": "EG000300JWFVB", 
+        "Name": "HpeSmartStorageDiskDrive", 
+        "PowerOnHours": null, 
+        "RotationalSpeedRpm": 10000, 
+        "SSDEnduranceUtilizationPercentage": null, 
+        "SerialNumber": "38G0A1YAFQVE1811", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "UncorrectedReadErrors": 0, 
+        "UncorrectedWriteErrors": 0
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive", 
+        "@odata.etag": "W/\"E3BB6172\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/3/", 
+        "BlockSizeBytes": 512, 
+        "CapacityGB": 960, 
+        "CapacityLogicalBlocks": 1875385008, 
+        "CapacityMiB": 915715, 
+        "CarrierApplicationVersion": "11", 
+        "CarrierAuthenticationStatus": "OK", 
+        "CurrentTemperatureCelsius": 30, 
+        "Description": "HPE Smart Storage Disk Drive View", 
+        "DiskDriveStatusReasons": [
+          "None"
+        ], 
+        "DiskDriveUse": "Data", 
+        "EncryptedDrive": false, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "HPGE"
+          }
+        }, 
+        "Id": "3", 
+        "InterfaceSpeedMbps": 6000, 
+        "InterfaceType": "SATA", 
+        "LegacyBootPriority": "None", 
+        "Location": "1I:3:1", 
+        "LocationFormat": "ControllerPort:Box:Bay", 
+        "MaximumTemperatureCelsius": 48, 
+        "MediaType": "SSD", 
+        "Model": "VK000960GWEZD", 
+        "Name": "HpeSmartStorageDiskDrive", 
+        "PowerOnHours": 20294, 
+        "SSDEnduranceUtilizationPercentage": 0, 
+        "SerialNumber": "172819C47325", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "UncorrectedReadErrors": 0, 
+        "UncorrectedWriteErrors": 0
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/2/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive", 
+        "@odata.etag": "W/\"9DD37992\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/2/", 
+        "BlockSizeBytes": 512, 
+        "CapacityGB": 960, 
+        "CapacityLogicalBlocks": 1875385008, 
+        "CapacityMiB": 915715, 
+        "CarrierApplicationVersion": "11", 
+        "CarrierAuthenticationStatus": "OK", 
+        "CurrentTemperatureCelsius": 31, 
+        "Description": "HPE Smart Storage Disk Drive View", 
+        "DiskDriveStatusReasons": [
+          "None"
+        ], 
+        "DiskDriveUse": "Data", 
+        "EncryptedDrive": false, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "HPGE"
+          }
+        }, 
+        "Id": "2", 
+        "InterfaceSpeedMbps": 6000, 
+        "InterfaceType": "SATA", 
+        "LegacyBootPriority": "None", 
+        "Location": "1I:3:2", 
+        "LocationFormat": "ControllerPort:Box:Bay", 
+        "MaximumTemperatureCelsius": 48, 
+        "MediaType": "SSD", 
+        "Model": "VK000960GWEZD", 
+        "Name": "HpeSmartStorageDiskDrive", 
+        "PowerOnHours": 20294, 
+        "SSDEnduranceUtilizationPercentage": 0, 
+        "SerialNumber": "172819C47326", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "UncorrectedReadErrors": 0, 
+        "UncorrectedWriteErrors": 0
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/0/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive", 
+        "@odata.etag": "W/\"04994729\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/0/", 
+        "BlockSizeBytes": 512, 
+        "CapacityGB": 960, 
+        "CapacityLogicalBlocks": 1875385008, 
+        "CapacityMiB": 915715, 
+        "CarrierApplicationVersion": "11", 
+        "CarrierAuthenticationStatus": "OK", 
+        "CurrentTemperatureCelsius": 30, 
+        "Description": "HPE Smart Storage Disk Drive View", 
+        "DiskDriveStatusReasons": [
+          "None"
+        ], 
+        "DiskDriveUse": "Data", 
+        "EncryptedDrive": false, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "HPGE"
+          }
+        }, 
+        "Id": "0", 
+        "InterfaceSpeedMbps": 6000, 
+        "InterfaceType": "SATA", 
+        "LegacyBootPriority": "None", 
+        "Location": "1I:3:4", 
+        "LocationFormat": "ControllerPort:Box:Bay", 
+        "MaximumTemperatureCelsius": 48, 
+        "MediaType": "SSD", 
+        "Model": "VK000960GWEZD", 
+        "Name": "HpeSmartStorageDiskDrive", 
+        "PowerOnHours": 20293, 
+        "SSDEnduranceUtilizationPercentage": 0, 
+        "SerialNumber": "172819C4737F", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "UncorrectedReadErrors": 0, 
+        "UncorrectedWriteErrors": 0
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive", 
+        "@odata.etag": "W/\"FA45DB26\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/1/", 
+        "BlockSizeBytes": 512, 
+        "CapacityGB": 960, 
+        "CapacityLogicalBlocks": 1875385008, 
+        "CapacityMiB": 915715, 
+        "CarrierApplicationVersion": "11", 
+        "CarrierAuthenticationStatus": "OK", 
+        "CurrentTemperatureCelsius": 30, 
+        "Description": "HPE Smart Storage Disk Drive View", 
+        "DiskDriveStatusReasons": [
+          "None"
+        ], 
+        "DiskDriveUse": "Data", 
+        "EncryptedDrive": false, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "HPGE"
+          }
+        }, 
+        "Id": "1", 
+        "InterfaceSpeedMbps": 6000, 
+        "InterfaceType": "SATA", 
+        "LegacyBootPriority": "None", 
+        "Location": "1I:3:3", 
+        "LocationFormat": "ControllerPort:Box:Bay", 
+        "MaximumTemperatureCelsius": 48, 
+        "MediaType": "SSD", 
+        "Model": "VK000960GWEZD", 
+        "Name": "HpeSmartStorageDiskDrive", 
+        "PowerOnHours": 20294, 
+        "SSDEnduranceUtilizationPercentage": 0, 
+        "SerialNumber": "172819C47364", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "UncorrectedReadErrors": 0, 
+        "UncorrectedWriteErrors": 0
+      }
+    }
+  }
+]

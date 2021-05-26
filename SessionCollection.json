@@ -1,0 +1,43 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#SessionCollection.SessionCollection": {
+      "/redfish/v1/SessionService/Sessions/": {
+        "@odata.context": "/redfish/v1/$metadata#SessionCollection.SessionCollection", 
+        "@odata.etag": "W/\"E7A78B3F\"", 
+        "@odata.id": "/redfish/v1/SessionService/Sessions/", 
+        "Description": "Manager User Sessions", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/gordon0000000060410de0f30f2a8d/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/gordon0000000060410f3f3aaccc8e/"
+          }
+        ], 
+        "Members@odata.count": 2, 
+        "Name": "Sessions", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSessionsSummary.HpeiLOSessionsSummary", 
+            "@odata.type": "#HpeiLOSessionsSummary.v2_0_0.HpeiLOSessionsSummary", 
+            "Links": {
+              "MySession": {
+                "@odata.id": "/redfish/v1/SessionService/Sessions/gordon0000000060410f3f3aaccc8e/"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

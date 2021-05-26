@@ -1,0 +1,32 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#VirtualMediaCollection.VirtualMediaCollection": {
+      "/redfish/v1/Managers/1/VirtualMedia/": {
+        "@odata.context": "/redfish/v1/$metadata#VirtualMediaCollection.VirtualMediaCollection", 
+        "@odata.etag": "W/\"570254F2\"", 
+        "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/", 
+        "Description": "iLO Virtual Media Services Settings", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/2/"
+          }
+        ], 
+        "Members@odata.count": 2, 
+        "Name": "Virtual Media Services"
+      }
+    }
+  }
+]

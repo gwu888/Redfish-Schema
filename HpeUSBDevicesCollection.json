@@ -1,0 +1,32 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeUSBDevicesCollection.HpeUSBDevicesCollection": {
+      "/redfish/v1/Systems/1/USBDevices/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeUSBDevicesCollection.HpeUSBDevicesCollection", 
+        "@odata.etag": "W/\"570254F2\"", 
+        "@odata.id": "/redfish/v1/Systems/1/USBDevices/", 
+        "Description": "USB Device collection view", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/USBDevices/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/USBDevices/2/"
+          }
+        ], 
+        "Members@odata.count": 2, 
+        "Name": "USB Device collection"
+      }
+    }
+  }
+]

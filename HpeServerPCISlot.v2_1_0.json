@@ -1,0 +1,102 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot": {
+      "/redfish/v1/Systems/1/PCISlots/3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot", 
+        "@odata.etag": "W/\"8C32C16D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/PCISlots/3/", 
+        "BusNumber": 97, 
+        "Characteristics": {
+          "Provides3_3Volts": true, 
+          "SupportsPowerManagementEventSignal": true
+        }, 
+        "DeviceNumber": 0, 
+        "FunctionNumber": 0, 
+        "Id": "3", 
+        "Length": "Long", 
+        "LinkLanes": "x16", 
+        "Name": "PCI-E Slot 2", 
+        "Status": {
+          "OperationalStatus": [
+            {
+              "Status": "Empty"
+            }
+          ]
+        }, 
+        "SupportsHotPlug": false, 
+        "Technology": "PCIExpressGen3", 
+        "UEFIDevicePath": "PciRoot(0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot": {
+      "/redfish/v1/Systems/1/PCISlots/2/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot", 
+        "@odata.etag": "W/\"E0107C80\"", 
+        "@odata.id": "/redfish/v1/Systems/1/PCISlots/2/", 
+        "BusNumber": 18, 
+        "Characteristics": {
+          "Provides3_3Volts": true, 
+          "SupportsPowerManagementEventSignal": true
+        }, 
+        "DeviceNumber": 0, 
+        "FunctionNumber": 0, 
+        "Id": "2", 
+        "Length": "Short", 
+        "LinkLanes": "x8", 
+        "Name": "PCI-E Slot 3", 
+        "Status": {
+          "OperationalStatus": [
+            {
+              "Status": "InUse"
+            }
+          ]
+        }, 
+        "SupportsHotPlug": false, 
+        "Technology": "PCIExpressGen3", 
+        "UEFIDevicePath": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot": {
+      "/redfish/v1/Systems/1/PCISlots/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot", 
+        "@odata.etag": "W/\"1364F367\"", 
+        "@odata.id": "/redfish/v1/Systems/1/PCISlots/1/", 
+        "BusNumber": 17, 
+        "Characteristics": {
+          "Provides3_3Volts": true, 
+          "SupportsPowerManagementEventSignal": true
+        }, 
+        "DeviceNumber": 0, 
+        "FunctionNumber": 0, 
+        "Id": "1", 
+        "Length": "Short", 
+        "LinkLanes": "x8", 
+        "Name": "PCI-E Slot 1", 
+        "Status": {
+          "OperationalStatus": [
+            {
+              "Status": "InUse"
+            }
+          ]
+        }, 
+        "SupportsHotPlug": false, 
+        "Technology": "PCIExpressGen3", 
+        "UEFIDevicePath": "PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)"
+      }
+    }
+  }
+]

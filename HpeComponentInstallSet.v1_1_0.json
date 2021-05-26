@@ -1,0 +1,84 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeComponentInstallSet.v1_1_0.HpeComponentInstallSet": {
+      "/redfish/v1/UpdateService/InstallSets/a74b22b6/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponentInstallSet.HpeComponentInstallSet", 
+        "@odata.etag": "W/\"298E1A70\"", 
+        "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6/", 
+        "Actions": {
+          "#HpeComponentInstallSet.Invoke": {
+            "target": "/redfish/v1/UpdateService/InstallSets/a74b22b6/Actions/HpeComponentInstallSet.Invoke/"
+          }
+        }, 
+        "Created": "2018-04-25T11:35:01Z", 
+        "Description": "Essential system firmware components", 
+        "Id": "a74b22b6", 
+        "IsRecovery": true, 
+        "Modified": "2018-04-25T11:35:01Z", 
+        "Name": "System Recovery Set", 
+        "Sequence": [
+          {
+            "Command": "ApplyUpdate", 
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/26b7abcb/", 
+            "ExecutionTimeoutMinutes": 0, 
+            "Filename": "CPLD_DL360_DL380_Gen10_VP1_v2A2A_full_signed.vme", 
+            "Name": "System Recovery Set item (System Programmable Logic Device)", 
+            "UpdatableBy": [
+              "Bmc"
+            ]
+          }, 
+          {
+            "Command": "ApplyUpdate", 
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/f7630afb/", 
+            "ExecutionTimeoutMinutes": 0, 
+            "Filename": "ilo5_120.bin", 
+            "Name": "System Recovery Set item (iLO 5)", 
+            "UpdatableBy": [
+              "Bmc"
+            ]
+          }, 
+          {
+            "Command": "ApplyUpdate", 
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/0d51810a/", 
+            "ExecutionTimeoutMinutes": 0, 
+            "Filename": "IEGen10_0.1.5.2.signed.bin", 
+            "Name": "System Recovery Set item (Innovation Engine)", 
+            "UpdatableBy": [
+              "Bmc"
+            ]
+          }, 
+          {
+            "Command": "ApplyUpdate", 
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/43cd36f0/", 
+            "ExecutionTimeoutMinutes": 0, 
+            "Filename": "U30_1.36_02_15_2018.signed.flash", 
+            "Name": "System Recovery Set item (System ROM)", 
+            "UpdatableBy": [
+              "Bmc"
+            ]
+          }, 
+          {
+            "Command": "ApplyUpdate", 
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/47a612b8/", 
+            "ExecutionTimeoutMinutes": 0, 
+            "Filename": "SPSGen10_04.00.04.288.signed.bin", 
+            "Name": "System Recovery Set item (Server Platform Services)", 
+            "UpdatableBy": [
+              "Bmc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

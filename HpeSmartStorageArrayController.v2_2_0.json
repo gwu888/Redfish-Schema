@@ -1,0 +1,142 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeSmartStorageArrayController.v2_2_0.HpeSmartStorageArrayController": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageArrayController.HpeSmartStorageArrayController", 
+        "@odata.etag": "W/\"81A0D37E\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/", 
+        "AdapterType": "SmartArray", 
+        "BackupPowerSourceStatus": "NotPresent", 
+        "ControllerBoard": {
+          "Status": {
+            "Health": "OK"
+          }
+        }, 
+        "ControllerPartNumber": "836266-001", 
+        "CurrentOperatingMode": "Mixed", 
+        "Description": "HPE Smart Storage Array Controller View", 
+        "DriveWriteCache": "Disabled", 
+        "EncryptionCryptoOfficerPasswordSet": false, 
+        "EncryptionCspTestPassed": true, 
+        "EncryptionEnabled": false, 
+        "EncryptionFwLocked": false, 
+        "EncryptionHasLockedVolumesMissingBootPassword": false, 
+        "EncryptionMixedVolumesEnabled": false, 
+        "EncryptionSelfTestPassed": true, 
+        "EncryptionStandaloneModeEnabled": false, 
+        "ExternalPortCount": 0, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "3.00"
+          }
+        }, 
+        "HardwareRevision": "B", 
+        "Id": "3", 
+        "InternalPortCount": 2, 
+        "Links": {
+          "LogicalDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/LogicalDrives/"
+          }, 
+          "PhysicalDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/"
+          }, 
+          "StorageEnclosures": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/StorageEnclosures/"
+          }, 
+          "UnconfiguredDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/UnconfiguredDrives/"
+          }
+        }, 
+        "Location": "Slot 3", 
+        "LocationFormat": "PCISlot", 
+        "Model": "HPE Smart Array E208i-p SR Gen10", 
+        "Name": "Hpe Smart Storage Array Controller", 
+        "ReadCachePercent": 0, 
+        "SerialNumber": "PEYHL0ARCAK0C1 ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "WriteCacheWithoutBackupPowerEnabled": false
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageArrayController.v2_2_0.HpeSmartStorageArrayController": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageArrayController.HpeSmartStorageArrayController", 
+        "@odata.etag": "W/\"08AC6201\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/", 
+        "AdapterType": "SmartArray", 
+        "BackupPowerSourceStatus": "Present", 
+        "CacheMemorySizeMiB": 2048, 
+        "CacheModuleSerialNumber": "               ", 
+        "CacheModuleStatus": {
+          "Health": "OK"
+        }, 
+        "ControllerBoard": {
+          "Status": {
+            "Health": "OK"
+          }
+        }, 
+        "ControllerPartNumber": "836260-001", 
+        "CurrentOperatingMode": "Mixed", 
+        "Description": "HPE Smart Storage Array Controller View", 
+        "DriveWriteCache": "Disabled", 
+        "EncryptionCryptoOfficerPasswordSet": false, 
+        "EncryptionCspTestPassed": true, 
+        "EncryptionEnabled": false, 
+        "EncryptionFwLocked": false, 
+        "EncryptionHasLockedVolumesMissingBootPassword": false, 
+        "EncryptionMixedVolumesEnabled": false, 
+        "EncryptionSelfTestPassed": true, 
+        "EncryptionStandaloneModeEnabled": false, 
+        "ExternalPortCount": 0, 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "3.00"
+          }
+        }, 
+        "HardwareRevision": "B", 
+        "Id": "0", 
+        "InternalPortCount": 2, 
+        "Links": {
+          "LogicalDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/"
+          }, 
+          "PhysicalDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/"
+          }, 
+          "StorageEnclosures": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/StorageEnclosures/"
+          }, 
+          "UnconfiguredDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/UnconfiguredDrives/"
+          }
+        }, 
+        "Location": "Slot 0", 
+        "LocationFormat": "PCISlot", 
+        "Model": "HPE Smart Array P408i-a SR Gen10", 
+        "Name": "Hpe Smart Storage Array Controller", 
+        "ReadCachePercent": 10, 
+        "SerialNumber": "PEYHC0CRHAN0WO ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "WriteCacheBypassThresholdKB": 1040, 
+        "WriteCacheWithoutBackupPowerEnabled": false
+      }
+    }
+  }
+]

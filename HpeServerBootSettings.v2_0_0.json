@@ -1,0 +1,188 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings": {
+      "/redfish/v1/systems/1/bios/boot/settings/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings", 
+        "@odata.etag": "W/\"8A766C0998E8E5E5E5C270DF6C519502\"", 
+        "@odata.id": "/redfish/v1/systems/1/bios/boot/settings/", 
+        "BootSources": [
+          {
+            "BootOptionNumber": "0009", 
+            "BootString": "Generic USB Boot", 
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)", 
+            "StructuredBootString": "Generic.USB.1.1", 
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+          }, 
+          {
+            "BootOptionNumber": "000E", 
+            "BootString": "Internal SD Card 1 : Generic USB3.0-CRW", 
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x13,0x0)", 
+            "StructuredBootString": "HD.SD.1.2", 
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0x13,0x0)"
+          }, 
+          {
+            "BootOptionNumber": "000B", 
+            "BootString": "Embedded RAID 1 : HPE Smart Array P408i-a SR Gen10 - 199.9 GiB, RAID5 Logical Drive 1(Target:0, Lun:0)", 
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "HD.EmbRAID.1.2", 
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)/Scsi(0x0,0x0)"
+          }, 
+          {
+            "BootOptionNumber": "000C", 
+            "BootString": "Embedded RAID 1 : HPE Smart Array P408i-a SR Gen10 - 256 GiB, RAID5 Logical Drive 2(Target:0, Lun:1)", 
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "HD.EmbRAID.1.3", 
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)/Scsi(0x0,0x1)"
+          }, 
+          {
+            "BootOptionNumber": "000D", 
+            "BootString": "Embedded RAID 1 : HPE Smart Array P408i-a SR Gen10 - 3 TiB, RAID5 Logical Drive 3(Target:0, Lun:2)", 
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "HD.EmbRAID.1.4", 
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)/Scsi(0x0,0x2)"
+          }, 
+          {
+            "BootOptionNumber": "000A", 
+            "BootString": "Slot 3 : HPE Smart Array E208i-p SR Gen10 - 279.3 GiB, RAID1 Logical Drive 1(Target:0, Lun:0)", 
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "HD.Slot.3.2", 
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)/Scsi(0x0,0x0)"
+          }, 
+          {
+            "BootOptionNumber": "0010", 
+            "BootString": "Embedded LOM 1 Port 1 : HPE Ethernet 1Gb 4-port 331i Adapter - NIC (HTTP(S) IPv4)", 
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "NIC.LOM.1.1.Httpv4", 
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/MAC(D06726D14C8A,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)/Uri()"
+          }, 
+          {
+            "BootOptionNumber": "0012", 
+            "BootString": "Embedded LOM 1 Port 1 : HPE Ethernet 1Gb 4-port 331i Adapter - NIC (PXE IPv4)", 
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "NIC.LOM.1.1.IPv4", 
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/MAC(D06726D14C8A,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)"
+          }, 
+          {
+            "BootOptionNumber": "0014", 
+            "BootString": "Embedded FlexibleLOM 1 Port 1 : HP FlexFabric 10Gb 2-port 534FLR-SFP+ Adapter - NIC -  (HTTP(S) IPv4)", 
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "NIC.FlexLOM.1.1.Httpv4", 
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(ECEBB892A240,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)/Uri()"
+          }, 
+          {
+            "BootOptionNumber": "0016", 
+            "BootString": "Embedded FlexibleLOM 1 Port 1 : HP FlexFabric 10Gb 2-port 534FLR-SFP+ Adapter - NIC -  (PXE IPv4)", 
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "NIC.FlexLOM.1.1.IPv4", 
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(ECEBB892A240,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)"
+          }, 
+          {
+            "BootOptionNumber": "0011", 
+            "BootString": "Embedded LOM 1 Port 1 : HPE Ethernet 1Gb 4-port 331i Adapter - NIC (HTTP(S) IPv6)", 
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "NIC.LOM.1.1.Httpv6", 
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/MAC(D06726D14C8A,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000,0x0,Static,0000:0000:0000:0000:0000:0000:0000:0000,0x40,0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+          }, 
+          {
+            "BootOptionNumber": "0013", 
+            "BootString": "Embedded LOM 1 Port 1 : HPE Ethernet 1Gb 4-port 331i Adapter - NIC (PXE IPv6)", 
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "NIC.LOM.1.1.IPv6", 
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/MAC(D06726D14C8A,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000,0x0,Static,0000:0000:0000:0000:0000:0000:0000:0000,0x40,0000:0000:0000:0000:0000:0000:0000:0000)"
+          }, 
+          {
+            "BootOptionNumber": "0015", 
+            "BootString": "Embedded FlexibleLOM 1 Port 1 : HP FlexFabric 10Gb 2-port 534FLR-SFP+ Adapter - NIC -  (HTTP(S) IPv6)", 
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "NIC.FlexLOM.1.1.Httpv6", 
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(ECEBB892A240,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000,0x0,Static,0000:0000:0000:0000:0000:0000:0000:0000,0x40,0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+          }, 
+          {
+            "BootOptionNumber": "0017", 
+            "BootString": "Embedded FlexibleLOM 1 Port 1 : HP FlexFabric 10Gb 2-port 534FLR-SFP+ Adapter - NIC -  (PXE IPv6)", 
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)", 
+            "StructuredBootString": "NIC.FlexLOM.1.1.IPv6", 
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(ECEBB892A240,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000,0x0,Static,0000:0000:0000:0000:0000:0000:0000:0000,0x40,0000:0000:0000:0000:0000:0000:0000:0000)"
+          }, 
+          {
+            "BootOptionNumber": "0018", 
+            "BootString": "iLO Virtual USB 4 : iLO Virtual USB Key", 
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x4)/USB(0x2,0x0)", 
+            "StructuredBootString": "FD.Virtual.4.1", 
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x4)/USB(0x2,0x0)"
+          }
+        ], 
+        "DefaultBootOrder": [
+          "Cd", 
+          "Usb", 
+          "EmbeddedStorage", 
+          "PcieSlotStorage", 
+          "EmbeddedFlexLOM", 
+          "PcieSlotNic", 
+          "UefiShell"
+        ], 
+        "DesiredBootDevices": [
+          {
+            "CorrelatableID": "", 
+            "Lun": "", 
+            "Wwn": "", 
+            "iScsiTargetName": ""
+          }, 
+          {
+            "CorrelatableID": "", 
+            "Lun": "", 
+            "Wwn": "", 
+            "iScsiTargetName": ""
+          }, 
+          {
+            "CorrelatableID": "", 
+            "Lun": "", 
+            "Wwn": "", 
+            "iScsiTargetName": ""
+          }, 
+          {
+            "CorrelatableID": "", 
+            "Lun": "", 
+            "Wwn": "", 
+            "iScsiTargetName": ""
+          }, 
+          {
+            "CorrelatableID": "", 
+            "Lun": "", 
+            "Wwn": "", 
+            "iScsiTargetName": ""
+          }
+        ], 
+        "Id": "settings", 
+        "Name": "Boot Order Pending Settings", 
+        "PersistentBootConfigOrder": [
+          "Generic.USB.1.1", 
+          "HD.SD.1.2", 
+          "HD.EmbRAID.1.2", 
+          "HD.EmbRAID.1.3", 
+          "HD.EmbRAID.1.4", 
+          "HD.Slot.3.2", 
+          "NIC.LOM.1.1.Httpv4", 
+          "NIC.LOM.1.1.IPv4", 
+          "NIC.FlexLOM.1.1.Httpv4", 
+          "NIC.FlexLOM.1.1.IPv4", 
+          "NIC.LOM.1.1.Httpv6", 
+          "NIC.LOM.1.1.IPv6", 
+          "NIC.FlexLOM.1.1.Httpv6", 
+          "NIC.FlexLOM.1.1.IPv6", 
+          "FD.Virtual.4.1"
+        ]
+      }
+    }
+  }
+]

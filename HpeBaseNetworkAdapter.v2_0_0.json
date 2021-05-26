@@ -1,0 +1,189 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter": {
+      "/redfish/v1/Systems/1/BaseNetworkAdapters/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter", 
+        "@odata.etag": "W/\"7668AC68\"", 
+        "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/1/", 
+        "FcPorts": [], 
+        "Firmware": {
+          "Current": {
+            "VersionString": "7.18.69"
+          }
+        }, 
+        "Id": "1", 
+        "Name": "HP FlexFabric 10Gb 2port 534FLR-SFP+ Adapter", 
+        "PartNumber": "701531-001", 
+        "PhysicalPorts": [
+          {
+            "FullDuplex": true, 
+            "IPv4Addresses": [], 
+            "IPv6Addresses": [], 
+            "LinkStatus": "LinkUp", 
+            "MacAddress": "ec:eb:b8:92:a2:40", 
+            "Name": "", 
+            "Oem": {
+              "Hpe": {
+                "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt", 
+                "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt", 
+                "BadReceives": 0, 
+                "BadTransmits": 0, 
+                "GoodReceives": 0, 
+                "GoodTransmits": 0
+              }
+            }, 
+            "SpeedMbps": 0, 
+            "Status": {
+              "Health": "OK"
+            }
+          }, 
+          {
+            "FullDuplex": true, 
+            "IPv4Addresses": [], 
+            "IPv6Addresses": [], 
+            "LinkStatus": "LinkUp", 
+            "MacAddress": "ec:eb:b8:92:a2:44", 
+            "Name": "", 
+            "Oem": {
+              "Hpe": {
+                "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt", 
+                "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt", 
+                "BadReceives": 0, 
+                "BadTransmits": 0, 
+                "GoodReceives": 0, 
+                "GoodTransmits": 0
+              }
+            }, 
+            "SpeedMbps": 0, 
+            "Status": {
+              "Health": "OK"
+            }
+          }
+        ], 
+        "SerialNumber": "CN7814V1L1", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "StructuredName": "NIC.FlexLOM.1.1", 
+        "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)"
+      }
+    }
+  }, 
+  {
+    "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter": {
+      "/redfish/v1/Systems/1/BaseNetworkAdapters/2/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter", 
+        "@odata.etag": "W/\"95BCFA86\"", 
+        "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2/", 
+        "FcPorts": [], 
+        "Firmware": {
+          "Current": {
+            "VersionString": "20.16.31"
+          }
+        }, 
+        "Id": "2", 
+        "Name": "HPE Ethernet 1Gb 4-port 331i Adapter - NIC", 
+        "PhysicalPorts": [
+          {
+            "FullDuplex": true, 
+            "IPv4Addresses": [], 
+            "IPv6Addresses": [], 
+            "LinkStatus": "LinkUp", 
+            "MacAddress": "d0:67:26:d1:4c:8a", 
+            "Name": "", 
+            "Oem": {
+              "Hpe": {
+                "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt", 
+                "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt", 
+                "BadReceives": 0, 
+                "BadTransmits": 0, 
+                "GoodReceives": 588068, 
+                "GoodTransmits": 0
+              }
+            }, 
+            "SpeedMbps": 0, 
+            "Status": {
+              "Health": "OK"
+            }
+          }, 
+          {
+            "FullDuplex": true, 
+            "IPv4Addresses": [], 
+            "IPv6Addresses": [], 
+            "LinkStatus": "LinkUp", 
+            "MacAddress": "d0:67:26:d1:4c:8b", 
+            "Name": "", 
+            "Oem": {
+              "Hpe": {
+                "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt", 
+                "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt", 
+                "BadReceives": 0, 
+                "BadTransmits": 0, 
+                "GoodReceives": 588068, 
+                "GoodTransmits": 0
+              }
+            }, 
+            "SpeedMbps": 0, 
+            "Status": {
+              "Health": "OK"
+            }
+          }, 
+          {
+            "FullDuplex": true, 
+            "IPv4Addresses": [], 
+            "IPv6Addresses": [], 
+            "LinkStatus": null, 
+            "MacAddress": "d0:67:26:d1:4c:8c", 
+            "Name": "", 
+            "Oem": {
+              "Hpe": {
+                "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt", 
+                "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt", 
+                "BadReceives": 0, 
+                "BadTransmits": 0, 
+                "GoodReceives": 0, 
+                "GoodTransmits": 0
+              }
+            }, 
+            "SpeedMbps": 0
+          }, 
+          {
+            "FullDuplex": true, 
+            "IPv4Addresses": [], 
+            "IPv6Addresses": [], 
+            "LinkStatus": null, 
+            "MacAddress": "d0:67:26:d1:4c:8d", 
+            "Name": "", 
+            "Oem": {
+              "Hpe": {
+                "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt", 
+                "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt", 
+                "BadReceives": 0, 
+                "BadTransmits": 0, 
+                "GoodReceives": 0, 
+                "GoodTransmits": 0
+              }
+            }, 
+            "SpeedMbps": 0
+          }
+        ], 
+        "Status": {
+          "State": "Enabled"
+        }, 
+        "StructuredName": "NIC.LOM.1.1", 
+        "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)"
+      }
+    }
+  }
+]

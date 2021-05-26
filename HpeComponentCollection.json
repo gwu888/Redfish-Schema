@@ -1,0 +1,89 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeComponentCollection.HpeComponentCollection": {
+      "/redfish/v1/UpdateService/ComponentRepository/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponentCollection.HpeComponentCollection", 
+        "@odata.etag": "W/\"3E8B1C25\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/", 
+        "Description": "Component Collection", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/26b7abcb/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/47a612b8/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/0d51810a/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/43cd36f0/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/f7630afb/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/d7381697/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/b810954d/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/2a8aaa41/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/eac21339/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/20ac33f3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/5a402b51/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/b405588d/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/66a66cba/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/752d6e55/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/a3eee9fc/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/f3cd07d9/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/3b745a6d/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/4307e6d9/"
+          }
+        ], 
+        "Members@odata.count": 18, 
+        "Name": "Component Collection", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeComponentRepositoryInformation.HpeComponentRepositoryInformation", 
+            "@odata.type": "#HpeComponentRepositoryInformation.v2_0_0.HpeComponentRepositoryInformation", 
+            "ComponentCount": 18, 
+            "FreeSizeBytes": 882819072, 
+            "TotalSizeBytes": 1073168384
+          }
+        }
+      }
+    }
+  }
+]

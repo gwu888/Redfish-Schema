@@ -1,0 +1,36 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeSecureEraseReportService.v1_0_0.HpeSecureEraseReportService": {
+      "/redfish/v1/Systems/1/SecureEraseReportService/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSecureEraseReportService.HpeSecureEraseReportService", 
+        "@odata.etag": "W/\"5A3B6DDE\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService/", 
+        "Actions": {
+          "#HpeSecureEraseReportService.DeleteSecureEraseReport": {
+            "target": "/redfish/v1/Systems/1/SecureEraseReportService/Actions/HpeSecureEraseReportService.DeleteSecureEraseReport/"
+          }
+        }, 
+        "Description": "HPE SecureErase Report Service", 
+        "EraseInitiatedBy": null, 
+        "Id": "SecureEraseReportService", 
+        "Links": {
+          "SecureEraseReportEntries": {
+            "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService/SecureEraseReportEntries/"
+          }
+        }, 
+        "Name": "HpeSecureEraseReportService", 
+        "ServerSerialNumber": null
+      }
+    }
+  }
+]

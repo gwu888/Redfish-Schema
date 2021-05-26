@@ -1,0 +1,50 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeSecurityService.v2_2_0.HpeSecurityService": {
+      "/redfish/v1/Managers/1/SecurityService/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSecurityService.HpeSecurityService", 
+        "@odata.etag": "W/\"83E6AE53\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/", 
+        "CurrentCipher": "ECDHE-RSA-AES256-GCM-SHA384", 
+        "Id": "SecurityService", 
+        "Links": {
+          "CertAuth": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/"
+          }, 
+          "ESKM": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/ESKM/"
+          }, 
+          "HttpsCert": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert/"
+          }, 
+          "SSO": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO/"
+          }, 
+          "SecurityDashboard": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/"
+          }
+        }, 
+        "LoginSecurityBanner": {
+          "IsEnabled": false
+        }, 
+        "SSHHostKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjBFSe0i1xDXuS/tCUmaL9BBMT63oStGdkVEc6RtdYG0eq/84dR3OsQ3pcIwDBiCJ3EtJ7ZPog6dmhcMyNz4pKDe2w/f9wtiEH1JucrSASVcjyTJh6REMQ56ouhVStyXLHUArurvRqaCCmy2IeDjBq+xjvrh2EEcQsRpPup7YGYgSI/+QONuMQexIk/h+srKBX51qNbwN/vWSBBUwZLVslCcoX3MkiArlsBoFSwlu8V3TfLw8/t5FidYYI/CW0ZjqpcHGpdQDyWvJEEiBDJRzr+GYZaIVdNloaNaMBW0GCIQdMVixn0aFgaeC1vrw8ItaKignGqEq/6XQxdR8Wo4P3", 
+        "SecurityState": "Production", 
+        "SecurityState@Redfish.AllowableValues": [
+          "Production", 
+          "HighSecurity", 
+          "FIPS"
+        ]
+      }
+    }
+  }
+]

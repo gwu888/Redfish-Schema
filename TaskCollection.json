@@ -1,0 +1,25 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#TaskCollection.TaskCollection": {
+      "/redfish/v1/TaskService/Tasks/": {
+        "@odata.context": "/redfish/v1/$metadata#TaskCollection.TaskCollection", 
+        "@odata.etag": "W/\"75983E8D\"", 
+        "@odata.id": "/redfish/v1/TaskService/Tasks/", 
+        "Description": "iLO Tasks", 
+        "Members": [], 
+        "Members@odata.count": 0, 
+        "Name": "Tasks"
+      }
+    }
+  }
+]

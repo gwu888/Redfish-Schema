@@ -1,0 +1,110 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#MetricReportDefinitionCollection.MetricReportDefinitionCollection": {
+      "/redfish/v1/TelemetryService/MetricReportDefinitions/": {
+        "@odata.context": "/redfish/v1/$metadata#MetricReportDefinitionCollection.MetricReportDefinitionCollection", 
+        "@odata.etag": "W/\"B7A69804\"", 
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/", 
+        "Description": " MetricReportDefinitions view", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom4/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom4/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/IOBusUtilCustom4/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtilCustom4/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom4/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/AvgCPU0FreqCustom4/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom4/"
+          }
+        ], 
+        "Members@odata.count": 28, 
+        "Name": "MetricReportDefinitions"
+      }
+    }
+  }
+]

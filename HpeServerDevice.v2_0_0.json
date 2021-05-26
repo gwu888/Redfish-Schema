@@ -1,0 +1,289 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeServerDevice.v2_0_0.HpeServerDevice": {
+      "/redfish/v1/Chassis/1/Devices/7/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice", 
+        "@odata.etag": "W/\"B4D6437C\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Devices/7/", 
+        "DeviceInstances": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/10/"
+          }
+        ], 
+        "DeviceType": "Smart Storage", 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "3.00"
+          }
+        }, 
+        "Id": "7", 
+        "Links": {
+          "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/2/"
+          }
+        }, 
+        "Location": "PCI-E Slot 3", 
+        "Manufacturer": "HPE", 
+        "Name": "HPE Smart Array E208i-p SR Gen10", 
+        "PartNumber": "836266-001", 
+        "ProductPartNumber": "804394-B21", 
+        "ProductVersion": "B", 
+        "SerialNumber": "PEYHL0ARCAK0C1 ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#HpeServerDevice.v2_0_0.HpeServerDevice": {
+      "/redfish/v1/Chassis/1/Devices/6/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice", 
+        "@odata.etag": "W/\"20F5ECB0\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Devices/6/", 
+        "DeviceInstances": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/11/"
+          }
+        ], 
+        "DeviceType": "Unknown", 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "N/A"
+          }
+        }, 
+        "Id": "6", 
+        "Links": {
+          "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/3/"
+          }
+        }, 
+        "Location": "PCI-E Slot 2", 
+        "Manufacturer": "", 
+        "Name": "Empty slot 2", 
+        "PartNumber": "", 
+        "ProductPartNumber": "", 
+        "ProductVersion": "", 
+        "SerialNumber": "", 
+        "Status": {
+          "State": "Absent"
+        }
+      }
+    }
+  }, 
+  {
+    "#HpeServerDevice.v2_0_0.HpeServerDevice": {
+      "/redfish/v1/Chassis/1/Devices/1/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice", 
+        "@odata.etag": "W/\"80D51EBD\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Devices/1/", 
+        "DeviceInstances": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/5/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/6/"
+          }
+        ], 
+        "DeviceType": "LOM/NIC", 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "7.18.69"
+          }
+        }, 
+        "Id": "1", 
+        "Location": "Embedded ALOM", 
+        "Manufacturer": "HP", 
+        "Name": "HP FlexFabric 10Gb 2port 534FLR-SFP+ Adapter", 
+        "PartNumber": "701531-001", 
+        "ProductPartNumber": "700751-B21", 
+        "ProductVersion": "00", 
+        "SerialNumber": "CN7814V1L1", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#HpeServerDevice.v2_0_0.HpeServerDevice": {
+      "/redfish/v1/Chassis/1/Devices/3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice", 
+        "@odata.etag": "W/\"114A691B\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Devices/3/", 
+        "DeviceInstances": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/4/"
+          }
+        ], 
+        "DeviceType": "LOM/NIC", 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "20.16.31"
+          }
+        }, 
+        "Id": "3", 
+        "Location": "Embedded LOM", 
+        "Manufacturer": "", 
+        "Name": "HPE Ethernet 1Gb 4-port 331i Adapter - NIC", 
+        "PartNumber": "", 
+        "ProductPartNumber": "", 
+        "ProductVersion": "", 
+        "SerialNumber": "", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#HpeServerDevice.v2_0_0.HpeServerDevice": {
+      "/redfish/v1/Chassis/1/Devices/2/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice", 
+        "@odata.etag": "W/\"DF5A3573\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Devices/2/", 
+        "DeviceType": "Smart Storage Battery", 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "0.60"
+          }
+        }, 
+        "Id": "2", 
+        "Location": "Embedded Device", 
+        "Manufacturer": "STL", 
+        "Name": "HPE Smart Storage Battery", 
+        "PartNumber": "878643-001", 
+        "ProductPartNumber": "875241-B21", 
+        "ProductVersion": "01", 
+        "SerialNumber": "6WQXL0AB2AC0CJ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#HpeServerDevice.v2_0_0.HpeServerDevice": {
+      "/redfish/v1/Chassis/1/Devices/8/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice", 
+        "@odata.etag": "W/\"96249847\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Devices/8/", 
+        "DeviceInstances": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/8/"
+          }
+        ], 
+        "DeviceType": "Unknown", 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "2.5"
+          }
+        }, 
+        "Id": "8", 
+        "Location": "Embedded Device", 
+        "Manufacturer": "", 
+        "Name": "Embedded Video Controller", 
+        "PartNumber": "", 
+        "ProductPartNumber": "", 
+        "ProductVersion": "", 
+        "SerialNumber": "", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }, 
+  {
+    "#HpeServerDevice.v2_0_0.HpeServerDevice": {
+      "/redfish/v1/Chassis/1/Devices/5/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice", 
+        "@odata.etag": "W/\"29CCEE05\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Devices/5/", 
+        "DeviceInstances": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/9/"
+          }
+        ], 
+        "DeviceType": "Unknown", 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "N/A"
+          }
+        }, 
+        "Id": "5", 
+        "Links": {
+          "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/1/"
+          }
+        }, 
+        "Location": "PCI-E Slot 1", 
+        "Manufacturer": "", 
+        "Name": "PCIe Controller", 
+        "PartNumber": "", 
+        "ProductPartNumber": "", 
+        "ProductVersion": "", 
+        "SerialNumber": "", 
+        "Status": {
+          "Health": null, 
+          "State": null
+        }
+      }
+    }
+  }, 
+  {
+    "#HpeServerDevice.v2_0_0.HpeServerDevice": {
+      "/redfish/v1/Chassis/1/Devices/4/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice", 
+        "@odata.etag": "W/\"7B409B11\"", 
+        "@odata.id": "/redfish/v1/Chassis/1/Devices/4/", 
+        "DeviceInstances": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/7/"
+          }
+        ], 
+        "DeviceType": "Smart Storage", 
+        "FirmwareVersion": {
+          "Current": {
+            "VersionString": "3.00"
+          }
+        }, 
+        "Id": "4", 
+        "Location": "Embedded RAID", 
+        "Manufacturer": "", 
+        "Name": "HPE Smart Array P408i-a SR Gen10", 
+        "PartNumber": "836260-001", 
+        "ProductPartNumber": "", 
+        "ProductVersion": "B", 
+        "SerialNumber": "PEYHC0CRHAN0WO ", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/2/DataDrives/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection", 
+        "@odata.etag": "W/\"08A22FCA\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/2/DataDrives/", 
+        "Description": "HPE Smart Storage Disk Drives View", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/0/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/4/"
+          }
+        ], 
+        "Members@odata.count": 5, 
+        "Name": "HpeSmartStorageDiskDrives"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection", 
+        "@odata.etag": "W/\"08A22FCA\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/", 
+        "Description": "HPE Smart Storage Disk Drives View", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/0/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/4/"
+          }
+        ], 
+        "Members@odata.count": 5, 
+        "Name": "HpeSmartStorageDiskDrives"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/UnconfiguredDrives/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection", 
+        "@odata.etag": "W/\"75983E8D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/UnconfiguredDrives/", 
+        "Description": "HPE Smart Storage Unconfigured Disk Drives View", 
+        "Members": [], 
+        "Members@odata.count": 0, 
+        "Name": "HpeSmartStorageUnconfiguredDiskDrives"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/3/DataDrives/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection", 
+        "@odata.etag": "W/\"08A22FCA\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/3/DataDrives/", 
+        "Description": "HPE Smart Storage Disk Drives View", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/0/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/4/"
+          }
+        ], 
+        "Members@odata.count": 5, 
+        "Name": "HpeSmartStorageDiskDrives"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/LogicalDrives/1/DataDrives/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection", 
+        "@odata.etag": "W/\"570254F2\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/LogicalDrives/1/DataDrives/", 
+        "Description": "HPE Smart Storage Disk Drives View", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/0/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/2/"
+          }
+        ], 
+        "Members@odata.count": 2, 
+        "Name": "HpeSmartStorageDiskDrives"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection", 
+        "@odata.etag": "W/\"570254F2\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/", 
+        "Description": "HPE Smart Storage Disk Drives View", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/0/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/DiskDrives/2/"
+          }
+        ], 
+        "Members@odata.count": 2, 
+        "Name": "HpeSmartStorageDiskDrives"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/1/DataDrives/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection", 
+        "@odata.etag": "W/\"08A22FCA\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/1/DataDrives/", 
+        "Description": "HPE Smart Storage Disk Drives View", 
+        "Members": [
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/0/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/1/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/2/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/3/"
+          }, 
+          {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/4/"
+          }
+        ], 
+        "Members@odata.count": 5, 
+        "Name": "HpeSmartStorageDiskDrives"
+      }
+    }
+  }, 
+  {
+    "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection": {
+      "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/UnconfiguredDrives/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection", 
+        "@odata.etag": "W/\"75983E8D\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/3/UnconfiguredDrives/", 
+        "Description": "HPE Smart Storage Unconfigured Disk Drives View", 
+        "Members": [], 
+        "Members@odata.count": 0, 
+        "Name": "HpeSmartStorageUnconfiguredDiskDrives"
+      }
+    }
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#Processor.v1_0_0.Processor": {
+      "/redfish/v1/Systems/1/Processors/2/": {
+        "@odata.context": "/redfish/v1/$metadata#Processor.Processor", 
+        "@odata.etag": "W/\"DE832F99\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Processors/2/", 
+        "Id": "2", 
+        "Manufacturer": "", 
+        "MaxSpeedMHz": 4000, 
+        "Model": "", 
+        "Name": "Processors", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeProcessorExt.HpeProcessorExt", 
+            "@odata.type": "#HpeProcessorExt.v2_0_0.HpeProcessorExt", 
+            "ConfigStatus": {}
+          }
+        }, 
+        "ProcessorId": {
+          "EffectiveFamily": "0", 
+          "EffectiveModel": "0", 
+          "IdentificationRegisters": "0x0000000000000000", 
+          "Step": "0", 
+          "VendorId": ""
+        }, 
+        "ProcessorType": "CPU", 
+        "Socket": "Proc 2", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Absent"
+        }, 
+        "TotalCores": 0, 
+        "TotalThreads": 0
+      }
+    }
+  }, 
+  {
+    "#Processor.v1_0_0.Processor": {
+      "/redfish/v1/Systems/1/Processors/1/": {
+        "@odata.context": "/redfish/v1/$metadata#Processor.Processor", 
+        "@odata.etag": "W/\"CFBD5ABF\"", 
+        "@odata.id": "/redfish/v1/Systems/1/Processors/1/", 
+        "Id": "1", 
+        "InstructionSet": "x86-64", 
+        "Manufacturer": "Intel(R) Corporation", 
+        "MaxSpeedMHz": 4000, 
+        "Model": "Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz", 
+        "Name": "Processors", 
+        "Oem": {
+          "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeProcessorExt.HpeProcessorExt", 
+            "@odata.type": "#HpeProcessorExt.v2_0_0.HpeProcessorExt", 
+            "AssetTag": "UNKNOWN", 
+            "Cache": [
+              {
+                "Associativity": "8waySetAssociative", 
+                "CacheSpeedns": 0, 
+                "CurrentSRAMType": [
+                  "Synchronous"
+                ], 
+                "EccType": "SingleBitECC", 
+                "InstalledSizeKB": 640, 
+                "Location": "Internal", 
+                "MaximumSizeKB": 640, 
+                "Name": "L1-Cache", 
+                "Policy": "WriteBack", 
+                "Socketed": false, 
+                "SupportedSRAMType": [
+                  "Synchronous"
+                ], 
+                "SystemCacheType": "Unified"
+              }, 
+              {
+                "Associativity": "16waySetAssociative", 
+                "CacheSpeedns": 0, 
+                "CurrentSRAMType": [
+                  "Synchronous"
+                ], 
+                "EccType": "SingleBitECC", 
+                "InstalledSizeKB": 10240, 
+                "Location": "Internal", 
+                "MaximumSizeKB": 10240, 
+                "Name": "L2-Cache", 
+                "Policy": "Varies", 
+                "Socketed": false, 
+                "SupportedSRAMType": [
+                  "Synchronous"
+                ], 
+                "SystemCacheType": "Unified"
+              }, 
+              {
+                "Associativity": "FullyAssociative", 
+                "CacheSpeedns": 0, 
+                "CurrentSRAMType": [
+                  "Synchronous"
+                ], 
+                "EccType": "SingleBitECC", 
+                "InstalledSizeKB": 14080, 
+                "Location": "Internal", 
+                "MaximumSizeKB": 14080, 
+                "Name": "L3-Cache", 
+                "Policy": "Varies", 
+                "Socketed": false, 
+                "SupportedSRAMType": [
+                  "Synchronous"
+                ], 
+                "SystemCacheType": "Unified"
+              }
+            ], 
+            "Characteristics": [
+              "64Bit", 
+              "MultiCore", 
+              "HwThread", 
+              "ExecuteProtection", 
+              "EnhancedVirtualization", 
+              "PowerPerfControl"
+            ], 
+            "ConfigStatus": {
+              "Populated": true, 
+              "State": "Enabled"
+            }, 
+            "CoresEnabled": 10, 
+            "ExternalClockMHz": 100, 
+            "MicrocodePatches": [
+              {
+                "CpuId": "0x00050654", 
+                "Date": "2020-06-16T00:00:00Z", 
+                "PatchId": "0x02006A08"
+              }, 
+              {
+                "CpuId": "0x00050655", 
+                "Date": "2018-11-16T00:00:00Z", 
+                "PatchId": "0x03000010"
+              }, 
+              {
+                "CpuId": "0x00050656", 
+                "Date": "2020-06-18T00:00:00Z", 
+                "PatchId": "0x04003003"
+              }, 
+              {
+                "CpuId": "0x00050657", 
+                "Date": "2020-06-18T00:00:00Z", 
+                "PatchId": "0x05003003"
+              }
+            ], 
+            "PartNumber": "", 
+            "RatedSpeedMHz": 2200, 
+            "SerialNumber": "", 
+            "VoltageVoltsX10": 16
+          }
+        }, 
+        "ProcessorArchitecture": "x86", 
+        "ProcessorId": {
+          "EffectiveFamily": "179", 
+          "EffectiveModel": "5", 
+          "IdentificationRegisters": "0x06540005fbffbfeb", 
+          "MicrocodeInfo": null, 
+          "Step": "4", 
+          "VendorId": "Intel(R) Corporation"
+        }, 
+        "ProcessorType": "CPU", 
+        "Socket": "Proc 1", 
+        "Status": {
+          "Health": "OK", 
+          "State": "Enabled"
+        }, 
+        "TotalCores": 10, 
+        "TotalThreads": 20
+      }
+    }
+  }
+]

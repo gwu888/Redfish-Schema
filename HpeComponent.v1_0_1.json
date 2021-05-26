@@ -1,0 +1,548 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/f3cd07d9/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/f3cd07d9/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp040927.zip", 
+        "Configuration": "", 
+        "Created": "2021-02-18T22:27:07Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053", 
+        "ExecutionParameters": "-s -f -e -g", 
+        "Filename": "cp040927.zip", 
+        "Filepath": "cp040927.zip", 
+        "Id": "f3cd07d9", 
+        "Locked": false, 
+        "Name": "Server Platform Services (SPS) Firmware", 
+        "SizeBytes": 3129250, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-86800a000101"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "04.01.04.339"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/2a8aaa41/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/2a8aaa41/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp033902.zip", 
+        "Configuration": "", 
+        "Created": "2019-07-11T03:08:22Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053", 
+        "ExecutionParameters": "", 
+        "Filename": "cp033902.zip", 
+        "Filepath": "cp033902.zip", 
+        "Id": "2a8aaa41", 
+        "Locked": false, 
+        "Name": "Offline Flash Package - Server Platform Services (SPS) Firmw...", 
+        "SizeBytes": 2823122, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-86800a000101"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "04.00.04.288"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/5a402b51/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/5a402b51/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp039808.zip", 
+        "Configuration": "", 
+        "Created": "2020-03-17T01:28:44Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d", 
+        "ExecutionParameters": "-s -f -e -g", 
+        "Filename": "cp039808.zip", 
+        "Filepath": "cp039808.zip", 
+        "Id": "5a402b51", 
+        "Locked": false, 
+        "Name": "Innovation Engine (IE) Fimware", 
+        "SizeBytes": 3126390, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-3c100a000303"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "0.2.1.2"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/43cd36f0/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/43cd36f0/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/U30_1.36_02_15_2018.signed.flash", 
+        "Configuration": "", 
+        "Created": "2018-04-25T11:34:05Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4", 
+        "ExecutionParameters": "", 
+        "Filename": "U30_1.36_02_15_2018.signed.flash", 
+        "Filepath": "U30_1.36_02_15_2018.signed.flash", 
+        "Id": "43cd36f0", 
+        "Locked": true, 
+        "Name": "System BIOS - U30", 
+        "SizeBytes": 33563252, 
+        "Targets": [
+          "00000000-0000-0000-0000-000000000205"
+        ], 
+        "UpdatableBy": [
+          "Bmc"
+        ], 
+        "Version": "v1.36 (02/15/2018)"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/a3eee9fc/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/a3eee9fc/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/firmware-nic-broadcom-2.23.10-1.1.x86_64.rpm", 
+        "Configuration": "", 
+        "Created": "2020-04-08T20:58:57Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "757378b9-0016-4deb-97db-02bf1cd0b86a", 
+        "ExecutionParameters": "", 
+        "Filename": "firmware-nic-broadcom-2.23.10-1.1.x86_64.rpm", 
+        "Filepath": "firmware-nic-broadcom-2.23.10-1.1.x86_64.rpm", 
+        "Id": "a3eee9fc", 
+        "Locked": false, 
+        "Name": "HPE Broadcom NX1 FW for Linux x86_64", 
+        "SizeBytes": 4255611, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-14e4-165f103c22e8", 
+          "a6b1a447-382a-5a4f-14e4-1665103c22bd", 
+          "a6b1a447-382a-5a4f-14e4-165f103c1786", 
+          "a6b1a447-382a-5a4f-14e4-1657103c169d", 
+          "a6b1a447-382a-5a4f-14e4-1657103c3383", 
+          "a6b1a447-382a-5a4f-14e4-1657103c22be"
+        ], 
+        "UpdatableBy": [
+          "Uefi", 
+          "RuntimeAgent"
+        ], 
+        "Version": "2.23.10"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/d7381697/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/d7381697/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp035517.zip", 
+        "Configuration": "", 
+        "Created": "2019-06-23T21:54:04Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d", 
+        "ExecutionParameters": "-s -f -e -g", 
+        "Filename": "cp035517.zip", 
+        "Filepath": "cp035517.zip", 
+        "Id": "d7381697", 
+        "Locked": false, 
+        "Name": "Innovation Engine (IE) Fimware", 
+        "SizeBytes": 3119421, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-3c100a000303"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "0.2.0.11"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/47a612b8/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/47a612b8/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/SPSGen10_04.00.04.288.signed.bin", 
+        "Configuration": "", 
+        "Created": "2018-04-25T11:32:57Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053", 
+        "ExecutionParameters": "", 
+        "Filename": "SPSGen10_04.00.04.288.signed.bin", 
+        "Filepath": "SPSGen10_04.00.04.288.signed.bin", 
+        "Id": "47a612b8", 
+        "Locked": true, 
+        "Name": "Server Platform Services (SPS) Firmware", 
+        "SizeBytes": 8390998, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-86800a000101"
+        ], 
+        "UpdatableBy": [
+          "Bmc"
+        ], 
+        "Version": "4.0.4.288"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/eac21339/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/eac21339/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp034104.zip", 
+        "Configuration": "", 
+        "Created": "2019-07-11T03:08:55Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d", 
+        "ExecutionParameters": "", 
+        "Filename": "cp034104.zip", 
+        "Filepath": "cp034104.zip", 
+        "Id": "eac21339", 
+        "Locked": false, 
+        "Name": "Innovation Engine (IE) Fimware", 
+        "SizeBytes": 2806861, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-3c100a000303"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "0.1.5.2"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/4307e6d9/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/4307e6d9/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp045309.zip", 
+        "Configuration": "", 
+        "Created": "2021-03-02T11:01:34Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053", 
+        "ExecutionParameters": "-s -f -e -g", 
+        "Filename": "cp045309.zip", 
+        "Filepath": "cp045309.zip", 
+        "Id": "4307e6d9", 
+        "Locked": false, 
+        "Name": "Server Platform Services (SPS) Firmware", 
+        "SizeBytes": 3135285, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-86800a000101"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "04.01.04.423"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/26b7abcb/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/26b7abcb/", 
+        "Activates": "AfterHardPowerCycle", 
+        "ComponentUri": "/fwrepo/CPLD_DL360_DL380_Gen10_VP1_v2A2A_full_signed.vme", 
+        "Configuration": "", 
+        "Created": "2018-04-25T11:32:41Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07", 
+        "ExecutionParameters": "", 
+        "Filename": "CPLD_DL360_DL380_Gen10_VP1_v2A2A_full_signed.vme", 
+        "Filepath": "CPLD_DL360_DL380_Gen10_VP1_v2A2A_full_signed.vme", 
+        "Id": "26b7abcb", 
+        "Locked": true, 
+        "Name": "System Programmable Logic Device", 
+        "SizeBytes": 1132559, 
+        "Targets": [
+          "00000000-0000-0000-0000-000000000205", 
+          "00000000-0000-0000-0000-000000000204", 
+          "00000000-0000-0000-0000-000000000203"
+        ], 
+        "UpdatableBy": [
+          "Bmc"
+        ], 
+        "Version": "2A"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/66a66cba/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/66a66cba/", 
+        "Activates": "AfterDeviceReset", 
+        "ComponentUri": "/fwrepo/ilo5_146.bin", 
+        "Configuration": "", 
+        "Created": "2020-04-08T13:35:59Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952", 
+        "ExecutionParameters": "", 
+        "Filename": "ilo5_146.bin", 
+        "Filepath": "ilo5_146.bin", 
+        "Id": "66a66cba", 
+        "Locked": false, 
+        "Name": "iLO 5", 
+        "SizeBytes": 33556520, 
+        "Targets": [
+          "4764a662-b342-4fc7-9ce9-258c5d99e815"
+        ], 
+        "UpdatableBy": [
+          "Bmc"
+        ], 
+        "Version": "1.46"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/3b745a6d/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/3b745a6d/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp043545.zip", 
+        "Configuration": "", 
+        "Created": "2021-02-18T22:27:45Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d", 
+        "ExecutionParameters": "-s -f -e -g", 
+        "Filename": "cp043545.zip", 
+        "Filepath": "cp043545.zip", 
+        "Id": "3b745a6d", 
+        "Locked": false, 
+        "Name": "Innovation Engine (IE) Fimware", 
+        "SizeBytes": 3133064, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-3c100a000303"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "0.2.2.0"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/f7630afb/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/f7630afb/", 
+        "Activates": "AfterDeviceReset", 
+        "ComponentUri": "/fwrepo/ilo5_120.bin", 
+        "Configuration": "", 
+        "Created": "2018-04-25T11:35:00Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952", 
+        "ExecutionParameters": "", 
+        "Filename": "ilo5_120.bin", 
+        "Filepath": "ilo5_120.bin", 
+        "Id": "f7630afb", 
+        "Locked": true, 
+        "Name": "iLO 5", 
+        "SizeBytes": 33556520, 
+        "Targets": [
+          "4764a662-b342-4fc7-9ce9-258c5d99e815"
+        ], 
+        "UpdatableBy": [
+          "Bmc"
+        ], 
+        "Version": "1.20"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/b405588d/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/b405588d/", 
+        "Activates": "AfterDeviceReset", 
+        "ComponentUri": "/fwrepo/ilo5_210.bin", 
+        "Configuration": "", 
+        "Created": "2020-04-08T14:06:08Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952", 
+        "ExecutionParameters": "", 
+        "Filename": "ilo5_210.bin", 
+        "Filepath": "ilo5_210.bin", 
+        "Id": "b405588d", 
+        "Locked": false, 
+        "Name": "iLO 5", 
+        "SizeBytes": 33557060, 
+        "Targets": [
+          "c0bcf2b9-1141-49af-aab8-c73791f0349c"
+        ], 
+        "UpdatableBy": [
+          "Bmc"
+        ], 
+        "Version": "2.10"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/b810954d/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/b810954d/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp035995.zip", 
+        "Configuration": "", 
+        "Created": "2019-06-23T21:54:26Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053", 
+        "ExecutionParameters": "-s -f -e -g", 
+        "Filename": "cp035995.zip", 
+        "Filepath": "cp035995.zip", 
+        "Id": "b810954d", 
+        "Locked": false, 
+        "Name": "Server Platform Services (SPS) Firmware", 
+        "SizeBytes": 3120215, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-86800a000101"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "04.01.04.251"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/752d6e55/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/752d6e55/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp042269.exe", 
+        "Configuration": "", 
+        "Created": "2020-04-08T20:08:49Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "79f0c163-0c13-4662-9dea-09235fef90cb", 
+        "ExecutionParameters": "", 
+        "Filename": "cp042269.exe", 
+        "Filepath": "cp042269.exe", 
+        "Id": "752d6e55", 
+        "Locked": false, 
+        "Name": "HPE Broadcom NX1 FW for Windows Server x64 Editions", 
+        "SizeBytes": 5656136, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-14e4-165f103c22e8", 
+          "a6b1a447-382a-5a4f-14e4-1665103c22bd", 
+          "a6b1a447-382a-5a4f-14e4-165f103c1786", 
+          "a6b1a447-382a-5a4f-14e4-1657103c169d", 
+          "a6b1a447-382a-5a4f-14e4-1657103c3383", 
+          "a6b1a447-382a-5a4f-14e4-1657103c22be"
+        ], 
+        "UpdatableBy": [
+          "Uefi", 
+          "RuntimeAgent"
+        ], 
+        "Version": "5.2.0.5"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/0d51810a/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/0d51810a/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/IEGen10_0.1.5.2.signed.bin", 
+        "Configuration": "", 
+        "Created": "2018-04-25T11:33:11Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d", 
+        "ExecutionParameters": "", 
+        "Filename": "IEGen10_0.1.5.2.signed.bin", 
+        "Filepath": "IEGen10_0.1.5.2.signed.bin", 
+        "Id": "0d51810a", 
+        "Locked": true, 
+        "Name": "Innovation Engine (IE) Universal Image", 
+        "SizeBytes": 8391008, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-3c100a000303"
+        ], 
+        "UpdatableBy": [
+          "Bmc"
+        ], 
+        "Version": "0.1.5.2"
+      }
+    }
+  }, 
+  {
+    "#HpeComponent.v1_0_1.HpeComponent": {
+      "/redfish/v1/UpdateService/ComponentRepository/20ac33f3/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent", 
+        "@odata.etag": "W/\"CD21D410\"", 
+        "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/20ac33f3/", 
+        "Activates": "AfterReboot", 
+        "ComponentUri": "/fwrepo/cp039726.zip", 
+        "Configuration": "", 
+        "Created": "2020-03-17T01:28:09Z", 
+        "Criticality": "Optional", 
+        "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053", 
+        "ExecutionParameters": "-s -f -e -g", 
+        "Filename": "cp039726.zip", 
+        "Filepath": "cp039726.zip", 
+        "Id": "20ac33f3", 
+        "Locked": false, 
+        "Name": "Server Platform Services (SPS) Firmware", 
+        "SizeBytes": 3125683, 
+        "Targets": [
+          "a6b1a447-382a-5a4f-3c10-86800a000101"
+        ], 
+        "UpdatableBy": [
+          "Uefi"
+        ], 
+        "Version": "04.01.04.296"
+      }
+    }
+  }
+]

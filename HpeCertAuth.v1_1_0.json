@@ -1,0 +1,47 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#HpeCertAuth.v1_1_0.HpeCertAuth": {
+      "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/": {
+        "@odata.context": "/redfish/v1/$metadata#HpeCertAuth.HpeCertAuth", 
+        "@odata.etag": "W/\"967B38FC\"", 
+        "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/", 
+        "Actions": {
+          "#HpeCertAuth.DeleteCRL": {
+            "target": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/Actions/HpeCertAuth.DeleteCRL/"
+          }, 
+          "#HpeCertAuth.ImportCACertificate": {
+            "target": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/Actions/HpeCertAuth.ImportCACertificate/"
+          }, 
+          "#HpeCertAuth.ImportCRL": {
+            "target": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/Actions/HpeCertAuth.ImportCRL/"
+          }
+        }, 
+        "CACertificates": {
+          "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/CACertificates/"
+        }, 
+        "CRLIssuer": null, 
+        "CRLSerial": null, 
+        "CertificateLoginEnabled": false, 
+        "Id": "CertificateAuthentication", 
+        "LDAPCertificateNameMapping": "SANUPN", 
+        "Links": {
+          "UserCertificateMapping": {
+            "@odata.id": "/redfish/v1/AccountService/UserCertificateMapping/"
+          }
+        }, 
+        "OCSPUri": "", 
+        "StrictCACModeEnabled": false
+      }
+    }
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#SmartStorageConfig.v2_0_2.SmartStorageConfig": {
+      "/redfish/v1/systems/1/smartstorageconfig/settings/": {
+        "@odata.context": "/redfish/v1/$metadata#SmartStorageConfig.SmartStorageConfig", 
+        "@odata.etag": "W/\"05B63EED5CAA23232313ADD3784ECA4D\"", 
+        "@odata.id": "/redfish/v1/systems/1/smartstorageconfig/settings/", 
+        "CurrentParallelSurfaceScanCount": 1, 
+        "DataGuard": "Strict", 
+        "DegradedPerformanceOptimization": "Disabled", 
+        "DriveWriteCache": "Disabled", 
+        "DriveWriteCacheUnconfigured": "Default", 
+        "ElevatorSort": "Enabled", 
+        "EncryptionConfiguration": "None", 
+        "EncryptionEULA": null, 
+        "ExpandPriority": "Medium", 
+        "FlexibleLatencySchedulerSetting": "Default", 
+        "Id": "settings", 
+        "InconsistencyRepairPolicy": null, 
+        "Location": "Slot 3", 
+        "LocationFormat": "PCISlot", 
+        "LogicalDrives": [
+          {
+            "Accelerator": "None", 
+            "BlockSizeBytes": 512, 
+            "CapacityBlocks": 585871964, 
+            "CapacityGiB": 279, 
+            "DataDrives": [
+              "1I:6:1", 
+              "1I:6:2"
+            ], 
+            "DriveLocationFormat": "ControllerPort:Box:Bay", 
+            "LegacyBootPriority": "None", 
+            "LogicalDriveName": "00F37763PEYHL0ARCAK0C1 24D2", 
+            "LogicalDriveNumber": 1, 
+            "ParityGroupCount": 0, 
+            "Raid": "Raid1", 
+            "SpareDrives": [], 
+            "SpareRebuildMode": null, 
+            "StripSizeBytes": 262144, 
+            "StripeSizeBytes": 262144, 
+            "VolumeUniqueIdentifier": "600508B1001C33B9EEDE3F16D69198F8"
+          }
+        ], 
+        "MonitorAndPerformanceAnalysisDelaySeconds": 60, 
+        "NoBatteryWriteCache": null, 
+        "PhysicalDrives": [
+          {
+            "LegacyBootPriority": "None", 
+            "Location": "1I:6:1", 
+            "LocationFormat": "ControllerPort:Box:Bay"
+          }, 
+          {
+            "LegacyBootPriority": "None", 
+            "Location": "1I:6:2", 
+            "LocationFormat": "ControllerPort:Box:Bay"
+          }
+        ], 
+        "Ports": [
+          {
+            "OperatingModeAfterReboot": "Mixed", 
+            "PortIndex": 0
+          }, 
+          {
+            "OperatingModeAfterReboot": "Mixed", 
+            "PortIndex": 1
+          }
+        ], 
+        "PowerModeAfterReboot": "MaxPerformance", 
+        "PredictiveSpareRebuild": "Disabled", 
+        "QueueDepth": "Automatic", 
+        "ReadCachePercent": null, 
+        "RebuildPriority": "High", 
+        "SurfaceScanAnalysisDelaySeconds": 3, 
+        "SurfaceScanAnalysisPriority": "Idle", 
+        "SurvivalPowerMode": "Enabled", 
+        "WriteCacheBypassThresholdKiB": null
+      }
+    }
+  }, 
+  {
+    "#SmartStorageConfig.v2_0_2.SmartStorageConfig": {
+      "/redfish/v1/systems/1/smartstorageconfig1/settings/": {
+        "@odata.context": "/redfish/v1/$metadata#SmartStorageConfig.SmartStorageConfig", 
+        "@odata.etag": "W/\"A158A2D93948DBDBDB0BF3169E8C96FE\"", 
+        "@odata.id": "/redfish/v1/systems/1/smartstorageconfig1/settings/", 
+        "CurrentParallelSurfaceScanCount": 1, 
+        "DataGuard": "Strict", 
+        "DegradedPerformanceOptimization": "Disabled", 
+        "DriveWriteCache": "Disabled", 
+        "DriveWriteCacheUnconfigured": "Default", 
+        "ElevatorSort": "Enabled", 
+        "EncryptionConfiguration": "None", 
+        "EncryptionEULA": null, 
+        "ExpandPriority": "Medium", 
+        "FlexibleLatencySchedulerSetting": "Default", 
+        "Id": "settings", 
+        "InconsistencyRepairPolicy": "Disabled", 
+        "Location": "Slot 0", 
+        "LocationFormat": "PCISlot", 
+        "LogicalDrives": [
+          {
+            "Accelerator": "ControllerCache", 
+            "BlockSizeBytes": 512, 
+            "CapacityBlocks": 419424000, 
+            "CapacityGiB": 199, 
+            "DataDrives": [
+              "1I:3:4", 
+              "1I:3:3", 
+              "1I:3:2", 
+              "1I:3:1", 
+              "2I:3:5"
+            ], 
+            "DriveLocationFormat": "ControllerPort:Box:Bay", 
+            "LegacyBootPriority": "None", 
+            "LogicalDriveName": "00F40156PEYHC0CRHAN0WO A0C3", 
+            "LogicalDriveNumber": 1, 
+            "ParityGroupCount": 0, 
+            "Raid": "Raid5", 
+            "SpareDrives": [], 
+            "SpareRebuildMode": null, 
+            "StripSizeBytes": 65536, 
+            "StripeSizeBytes": 262144, 
+            "VolumeUniqueIdentifier": "600508B1001C48555E4F86850C8D6110"
+          }, 
+          {
+            "Accelerator": "ControllerCache", 
+            "BlockSizeBytes": 512, 
+            "CapacityBlocks": 536870912, 
+            "CapacityGiB": 256, 
+            "DataDrives": [
+              "1I:3:4", 
+              "1I:3:3", 
+              "1I:3:2", 
+              "1I:3:1", 
+              "2I:3:5"
+            ], 
+            "DriveLocationFormat": "ControllerPort:Box:Bay", 
+            "LegacyBootPriority": "None", 
+            "LogicalDriveName": "04F4017APEYHC0CRHAN0WO C230", 
+            "LogicalDriveNumber": 2, 
+            "ParityGroupCount": 0, 
+            "Raid": "Raid5", 
+            "SpareDrives": [], 
+            "SpareRebuildMode": null, 
+            "StripSizeBytes": 65536, 
+            "StripeSizeBytes": 262144, 
+            "VolumeUniqueIdentifier": "600508B1001CC74F593E0C8317171A4D"
+          }, 
+          {
+            "Accelerator": "ControllerCache", 
+            "BlockSizeBytes": 512, 
+            "CapacityBlocks": 6544982192, 
+            "CapacityGiB": 3120, 
+            "DataDrives": [
+              "1I:3:4", 
+              "1I:3:3", 
+              "1I:3:2", 
+              "1I:3:1", 
+              "2I:3:5"
+            ], 
+            "DriveLocationFormat": "ControllerPort:Box:Bay", 
+            "LegacyBootPriority": "None", 
+            "LogicalDriveName": "08F40183PEYHC0CRHAN0WO 2F98", 
+            "LogicalDriveNumber": 3, 
+            "ParityGroupCount": 0, 
+            "Raid": "Raid5", 
+            "SpareDrives": [], 
+            "SpareRebuildMode": null, 
+            "StripSizeBytes": 65536, 
+            "StripeSizeBytes": 262144, 
+            "VolumeUniqueIdentifier": "600508B1001C925F3FFB7C371C31FBF3"
+          }
+        ], 
+        "MonitorAndPerformanceAnalysisDelaySeconds": 60, 
+        "NoBatteryWriteCache": "Disabled", 
+        "PhysicalDrives": [
+          {
+            "LegacyBootPriority": "None", 
+            "Location": "1I:3:4", 
+            "LocationFormat": "ControllerPort:Box:Bay"
+          }, 
+          {
+            "LegacyBootPriority": "None", 
+            "Location": "1I:3:3", 
+            "LocationFormat": "ControllerPort:Box:Bay"
+          }, 
+          {
+            "LegacyBootPriority": "None", 
+            "Location": "1I:3:2", 
+            "LocationFormat": "ControllerPort:Box:Bay"
+          }, 
+          {
+            "LegacyBootPriority": "None", 
+            "Location": "1I:3:1", 
+            "LocationFormat": "ControllerPort:Box:Bay"
+          }, 
+          {
+            "LegacyBootPriority": "None", 
+            "Location": "2I:3:5", 
+            "LocationFormat": "ControllerPort:Box:Bay"
+          }
+        ], 
+        "Ports": [
+          {
+            "OperatingModeAfterReboot": "Mixed", 
+            "PortIndex": 0
+          }, 
+          {
+            "OperatingModeAfterReboot": "Mixed", 
+            "PortIndex": 1
+          }
+        ], 
+        "PowerModeAfterReboot": "MaxPerformance", 
+        "PredictiveSpareRebuild": "Disabled", 
+        "QueueDepth": "Automatic", 
+        "ReadCachePercent": 10, 
+        "RebuildPriority": "High", 
+        "SurfaceScanAnalysisDelaySeconds": 3, 
+        "SurfaceScanAnalysisPriority": "Idle", 
+        "SurvivalPowerMode": "Enabled", 
+        "WriteCacheBypassThresholdKiB": 1040
+      }
+    }
+  }
+]

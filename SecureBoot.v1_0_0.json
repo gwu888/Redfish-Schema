@@ -1,0 +1,31 @@
+[
+  {
+    "Comments": {
+      "BIOSDate": "10/26/2020", 
+      "BIOSFamily": "U30", 
+      "Manufacturer": "HPE", 
+      "Model": "ProLiant DL380 Gen10", 
+      "SerialNumber": "2M281700WJ", 
+      "iLOVersion": "iLO 5 v2.31"
+    }
+  }, 
+  {
+    "#SecureBoot.v1_0_0.SecureBoot": {
+      "/redfish/v1/Systems/1/SecureBoot/": {
+        "@odata.context": "/redfish/v1/$metadata#SecureBoot.SecureBoot", 
+        "@odata.etag": "W/\"4A4CB737\"", 
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/", 
+        "Actions": {
+          "#SecureBoot.ResetKeys": {
+            "target": "/redfish/v1/Systems/1/SecureBoot/Actions/SecureBoot.ResetKeys/"
+          }
+        }, 
+        "Id": "SecureBoot", 
+        "Name": "SecureBoot", 
+        "SecureBootCurrentBoot": "Disabled", 
+        "SecureBootEnable": false, 
+        "SecureBootMode": "UserMode"
+      }
+    }
+  }
+]
