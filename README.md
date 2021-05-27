@@ -1,4 +1,3 @@
-# Types
-HPE Types and URIs
+# Redfish-Schema Examples
 
-This repository contains a full list of all the types for a HPE server.
+This repository shows a list of the Redfish-Schema examples for a HPE server.
